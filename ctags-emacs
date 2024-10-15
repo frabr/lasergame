@@ -1,0 +1,2880 @@
+
+../../../../dragon/numerideprecacated.rb,411
+module NumericDeprecatedNumericDeprecated1,0
+  def perc_to_zero start, durationperc_to_zero2,25
+  def perc_to_one start, durationperc_to_one22,362
+  def pos?pos?43,714
+  def neg?neg?61,885
+  def gtgt78,1031
+  def gtegte95,1167
+  def ltlt112,1306
+  def ltelte129,1442
+  def above?above?146,1582
+  def right_of?right_of?163,1730
+  def below?below?180,1887
+  def left_of?left_of?197,2035
+
+../../../../dragon/consoldeprecacated.rb,118
+module ConsoleDeprecatedConsoleDeprecated1,0
+  def addtext *argsaddtext2,25
+  def addsprite *argsaddsprite8,134
+
+../../../../dragon/outputdeprecacated.rb,1219
+module GTKGTK1,0
+  module FlatArrayDeprecatedFlatArrayDeprecated3,35
+    def + other+4,64
+module GTKGTK20,541
+  module OutputsDeprecatedOutputsDeprecated22,576
+    def __raise_deprecated_primitive_assignment__ prop__raise_deprecated_primitive_assignment__23,603
+    def __raise_property_renamed__ old_name, new_name__raise_property_renamed__37,1020
+    def solids= valuesolids=50,1374
+    def sprites= valuesprites=54,1463
+    def lines= valuelines=58,1552
+    def labels= valuelabels=62,1637
+    def borders= valueborders=66,1724
+    def primitives= valueprimitives=70,1813
+    def reserved= valuereserved=74,1908
+    def static_triangles= valuestatic_triangles=78,1999
+    def static_solids= valuestatic_solids=82,2106
+    def static_sprites= valuestatic_sprites=86,2207
+    def static_lines= valuestatic_lines=90,2310
+    def static_labels= valuestatic_labels=94,2409
+    def static_borders= valuestatic_borders=98,2510
+    def static_primitives= valuestatic_primitives=102,2613
+    def static_reserved= valuestatic_reserved=106,2722
+    def static_background_color= valuestatic_background_color=110,2827
+    def static_background_colorstatic_background_color114,2954
+
+../../../../dragon/ntime_docs.rbrb,4733
+module RuntimeDocsRuntimeDocs9,241
+  def docs_method_sort_orderdocs_method_sort_order10,260
+  def docs_classdocs_class126,2749
+  def docs_class_macrosdocs_class_macros133,3013
+  def docs_indie_pro_functionsdocs_indie_pro_functions139,3237
+  def docs_get_pixelsdocs_get_pixels146,3531
+  def docs_dlopendocs_dlopen152,3772
+  def docs_environment_functionsdocs_environment_functions158,4009
+  def docs_calcstringboxdocs_calcstringbox165,4315
+  def docs_request_quitdocs_request_quit171,4559
+  def docs_quit_requested?docs_quit_requested?177,4802
+  def docs_set_window_scaledocs_set_window_scale183,5048
+  def docs_set_window_titledocs_set_window_title189,5295
+  def docs_set_window_fullscreendocs_set_window_fullscreen195,5542
+  def docs_window_fullscreen?docs_window_fullscreen?201,5794
+  def docs_open_urldocs_open_url207,6043
+  def docs_systemdocs_system213,6282
+  def docs_execdocs_exec219,6519
+  def docs_show_cursordocs_show_cursor225,6754
+  def docs_hide_cursordocs_hide_cursor231,6996
+  def docs_cursor_shown?docs_cursor_shown?237,7238
+  def docs_set_mouse_grabdocs_set_mouse_grab243,7482
+  def docs_set_system_cursordocs_set_system_cursor249,7727
+  def docs_set_cursordocs_set_cursor255,7975
+  def docs_read_filedocs_read_file261,8216
+  def docs_encoding_functionsdocs_encoding_functions267,8456
+  def docs_parse_jsondocs_parse_json273,8705
+  def docs_parse_json_filedocs_parse_json_file279,8946
+  def docs_parse_xmldocs_parse_xml285,9192
+  def docs_parse_xml_filedocs_parse_xml_file291,9432
+  def docs_network_functionsdocs_network_functions297,9677
+  def docs_http_getdocs_http_get303,9914
+  def docs_http_postdocs_http_post309,10153
+  def docs_http_post_bodydocs_http_post_body315,10393
+  def docs_start_server!docs_start_server!321,10638
+  def docs_dev_support_functionsdocs_dev_support_functions327,10882
+  def docs_versiondocs_version334,11182
+  def docs_game_versiondocs_game_version340,11420
+  def docs_version_pro?docs_version_pro?346,11663
+  def docs_resetdocs_reset352,11906
+  def docs_reset_next_tickdocs_reset_next_tick358,12142
+  def docs_reset_spritedocs_reset_sprite364,12388
+  def docs_reset_spritesdocs_reset_sprites370,12631
+  def docs_calcspriteboxdocs_calcspritebox376,12875
+  def docs_current_frameratedocs_current_framerate382,13119
+  def docs_framerate_diagnostics_primitivesdocs_framerate_diagnostics_primitives388,13367
+  def docs_warn_array_primitives!docs_warn_array_primitives!394,13630
+  def docs_notify!docs_notify!401,13884
+  def docs_notify_extended!docs_notify_extended!407,14122
+  def docs_slowmo!docs_slowmo!413,14369
+  def docs_show_consoledocs_show_console419,14607
+  def docs_hide_consoledocs_hide_console425,14850
+  def docs_enable_consoledocs_enable_console431,15093
+  def docs_disable_controller_configdocs_disable_controller_config437,15338
+  def docs_enable_controller_configdocs_enable_controller_config443,15594
+  def docs_disable_consoledocs_disable_console449,15849
+  def docs_disable_reset_via_ctrl_rdocs_disable_reset_via_ctrl_r455,16095
+  def docs_start_recordingdocs_start_recording461,16350
+  def docs_stop_recordingdocs_stop_recording467,16596
+  def docs_cancel_recordingdocs_cancel_recording473,16841
+  def docs_start_replaydocs_start_replay479,17088
+  def docs_stop_replaydocs_stop_replay485,17331
+  def docs_get_base_dirdocs_get_base_dir491,17573
+  def docs_get_game_dirdocs_get_game_dir497,17816
+  def docs_get_game_dir_urldocs_get_game_dir_url503,18059
+  def docs_open_game_dirdocs_open_game_dir509,18306
+  def docs_write_file_rootdocs_write_file_root515,18550
+  def docs_append_file_rootdocs_append_file_root521,18796
+  def docs_argvdocs_argv527,19043
+  def docs_cli_argumentsdocs_cli_arguments533,19278
+  def docs_download_stb_rbdocs_download_stb_rb540,19523
+  def docs_reload_historydocs_reload_history546,19769
+  def docs_reload_history_pendingdocs_reload_history_pending552,20014
+  def docs_reload_if_neededdocs_reload_if_needed558,20267
+  def docs_api_summary_statedocs_api_summary_state564,20514
+  def docs_add_caller_to_puts!docs_add_caller_to_puts!570,20736
+  def docs_production?docs_production?576,20986
+  def docs_platform?docs_platform?582,21228
+  def docs_platform_mappingsdocs_platform_mappings588,21468
+  def docs_stat_filedocs_stat_file595,21717
+  def docs_file_access_functionsdocs_file_access_functions601,21957
+  def docs_list_filesdocs_list_files608,22247
+  def docs_write_filedocs_write_file614,22488
+  def docs_append_filedocs_append_file620,22729
+  def docs_delete_filedocs_delete_file626,22971
+  def docs_benchmarkdocs_benchmark632,23213
+class GTK::RuntimeGTK639,23457
+
+../../../../dragon/keyboard.rb,2250
+module GTKGTK6,125
+  class KeyboardKeysKeyboardKeys7,136
+    def initializeinitialize10,180
+    def self.alias_method from, toalias_method14,229
+    def self.aliasesaliases20,342
+    def self.sdl_shift_key? raw_keysdl_shift_key148,5364
+    def self.sdl_lshift_key? raw_keysdl_lshift_key152,5468
+    def self.sdl_rshift_key? raw_keysdl_rshift_key156,5542
+    def self.sdl_modifier_key? raw_keysdl_modifier_key160,5616
+    def self.sdl_modifier_key_methods modifiersdl_modifier_key_methods164,5735
+    def self.char_to_shift_char_hashchar_to_shift_char_hash210,6595
+    def self.shift_char_to_char_hashshift_char_to_char_hash214,6702
+    def self.scancode_to_method_hashscancode_to_method_hash240,7425
+    def self.sdl_to_key raw_key, modifiersdl_to_key249,7618
+    def self.utf_8_char raw_keyutf_8_char262,8212
+    def self.char_with_shift raw_key, modifierchar_with_shift269,8386
+    def self.char_to_method_hashchar_to_method_hash293,9387
+    def self.method_to_key_hashmethod_to_key_hash398,12449
+    def self.char_to_method char, int = nilchar_to_method422,13068
+    def clearclear427,13242
+    def left_rightleft_right433,13344
+    def up_downup_down439,13447
+    def truthy_keystruthy_keys445,13544
+    def all? keysall?450,13649
+    def any? keysany?465,13918
+    def clear_key keyclear_key480,14187
+    def allall485,14317
+    def get collectionget493,14598
+    def set collection, valueset507,15024
+    def method_missing m, *argsmethod_missing529,15758
+    def serializeserialize561,16731
+    def ctrlctrl568,16867
+    def ctrl= valuectrl=572,16904
+    def directional_vectordirectional_vector576,16956
+module GTKGTK609,17608
+  class KeyboardKeyboard610,17619
+    def initializeinitialize619,17767
+    def pp626,17936
+    def leftleft633,18059
+    def left_arrowleft_arrow637,18143
+    def rightright644,18291
+    def right_arrowright_arrow648,18378
+    def upup655,18526
+    def up_arrowup_arrow659,18604
+    def downdown666,18745
+    def down_arrowdown_arrow670,18829
+    def clearclear677,18969
+    def serializeserialize684,19076
+    def to_sto_s696,19324
+    def keykey700,19367
+    def method_missing m, *argsmethod_missing713,19660
+
+../../../../dragon/outputs.rb,4769
+module GTKGTK1,0
+  class SoundSound4,140
+    def self.parse vparse8,208
+    def initialize opts = {}initialize22,527
+module GTKGTK34,722
+  class OutputsArray < ArrayOutputsArray35,733
+    def [] *args[]38,795
+    def mark_methodmark_method43,863
+    def mark_and_id! omark_and_id!47,997
+    def array_primitive? osarray_primitive?55,1162
+    def __push__ other__push__75,2066
+  module WatchLabelsWatchLabels93,2481
+    def watch o, label_style: nil, background_style: nilwatch94,2502
+    def self.prefab sender:, string:, label_style: nil, background_style: nilprefab106,2878
+    def self.push source, string, label_style: nil, background_style: nilpush202,5447
+    def __push__ other__push__210,5813
+    def self.watch_primitiveswatch_primitives221,6002
+    def self.clearclear225,6073
+    def self.watch_label_countwatch_label_count234,6291
+  class GenericOutputsArray < OutputsArrayGenericOutputsArray239,6363
+    def resolved? oresolved?240,6406
+    def mark_methodmark_method257,6815
+  class SolidsOutputsArray < OutputsArraySolidsOutputsArray262,6870
+    def mark_methodmark_method263,6912
+  class StaticSolidsOutputsArray < OutputsArrayStaticSolidsOutputsArray268,6969
+    def mark_methodmark_method269,7017
+  class SpritesOutputsArray < OutputsArraySpritesOutputsArray274,7074
+    def mark_methodmark_method275,7117
+  class StaticSpritesOutputsArray < OutputsArrayStaticSpritesOutputsArray280,7175
+    def mark_methodmark_method281,7224
+  class LabelsOutputsArray < OutputsArrayLabelsOutputsArray286,7282
+    def mark_methodmark_method287,7324
+  class StaticLabelsOutputsArray < OutputsArrayStaticLabelsOutputsArray292,7381
+    def mark_methodmark_method293,7429
+  class BordersOutputsArray < OutputsArrayBordersOutputsArray298,7486
+    def mark_methodmark_method299,7529
+  class StaticBordersOutputsArray < OutputsArrayStaticBordersOutputsArray304,7587
+    def mark_methodmark_method305,7636
+  class LinesOutputsArray < OutputsArrayLinesOutputsArray310,7694
+    def mark_methodmark_method311,7735
+  class StaticLinesOutputsArray < OutputsArrayStaticLinesOutputsArray316,7791
+    def mark_methodmark_method317,7838
+  class ReservedOutputsArray < GenericOutputsArrayReservedOutputsArray322,7894
+  class StaticReservedOutputsArray < GenericOutputsArrayStaticReservedOutputsArray326,7976
+  class DebugOutputsArray < GenericOutputsArrayDebugOutputsArray329,8040
+  class StaticDebugOutputsArray < GenericOutputsArrayStaticDebugOutputsArray333,8119
+  class PrimitivesOutputsArray < GenericOutputsArrayPrimitivesOutputsArray336,8180
+  class StaticPrimitivesOutputsArray < GenericOutputsArrayStaticPrimitivesOutputsArray339,8240
+module GTKGTK343,8327
+  class PixelArrayPixelArray344,8338
+    def initializeinitialize347,8401
+    def ww353,8483
+    def w= valuew=357,8515
+    def hh361,8562
+    def h= valueh=365,8595
+module GTKGTK371,8653
+  class Outputs   # Each Outputs is a single render pass to a render target (or the window framebuffer).Outputs372,8664
+    def initialize opts = {}initialize382,9237
+    def __initialize_primitives__initialize_primitives411,10112
+    def default_background_colordefault_background_color426,10799
+    def background_color= valuebackground_color=430,10868
+    def background_colorbackground_color469,11852
+    def clear_before_render= valueclear_before_render=480,12114
+    def clear_before_renderclear_before_render484,12193
+    def ticktick488,12257
+    def a11y_scruba11y_scrub497,12471
+    def get_a11y_entry_error all_entries, k, vget_a11y_entry_error524,13307
+    def tick_a11ytick_a11y572,14836
+    def a11y_pending_notifications?a11y_pending_notifications?691,19589
+    def a11y_clear_pending_notifications!a11y_clear_pending_notifications!697,19794
+    def can_screenshot?can_screenshot?702,19952
+    def clear_non_staticclear_non_static706,20013
+    def clear_non_static_reservedclear_non_static_reserved722,20363
+    def resetreset727,20452
+    def clearclear735,20640
+    def inspectinspect748,20932
+    def serializeserialize752,20978
+    def render_target namerender_target770,21853
+    def [] value[]774,21921
+    def soundssounds778,21979
+    def sounds= valuesounds=782,22017
+    def transient!transient!786,22070
+    def << other<<791,22133
+    def widthwidth795,22186
+    def __warn_outputs_size__ size, dimension__warn_outputs_size__799,22222
+    def width= valuewidth=812,22664
+    def heightheight817,22757
+    def height= valueheight=821,22795
+  class TopLevelOutputs < OutputsTopLevelOutputs832,23016
+    def background_color= valuebackground_color=854,23867
+  class RenderTargetOutputs < OutputsRenderTargetOutputs861,24000
+
+../../../../dragon/string.rb,1011
+class StringString6,123
+  def self.wrapped_lines_recur word, rest, length, aggregatewrapped_lines_recur9,157
+  def char_bytechar_byte32,872
+  def insert_character_at index, charinsert_character_at39,1009
+  def excluding_character_at indexexcluding_character_at45,1119
+  def excluding_last_characterexcluding_last_character51,1217
+  def end_with_bang?end_with_bang?56,1340
+  def without_ending_bangwithout_ending_bang60,1388
+  def self.wrapped_lines string, lengthwrapped_lines65,1475
+  def wrapped_lines lengthwrapped_lines77,1754
+  def wrap lengthwrap81,1826
+  def multiline?multiline?85,1889
+  def indent_lines amount, char = " "indent_lines89,1931
+  def quotequote99,2111
+  def trimtrim103,2148
+  def trim!trim!107,2176
+  def ltrimltrim111,2206
+  def ltrim!ltrim!115,2236
+  def rtrimrtrim119,2268
+  def rtrim!rtrim!123,2298
+  def serializeserialize127,2330
+  def stripstrip133,2561
+  def indent count, indent_char: "  ", pad_line_with_space: falseindent137,2608
+
+../../../../dragon/attr_line.rb,290
+module AttrLineAttrLine6,126
+  def primitive_markerprimitive_marker9,217
+  def lineline13,257
+  def x1= valuex1=17,284
+  def x1x121,322
+  def y1= valuey1=25,345
+  def y1y129,383
+class ObjectObject34,410
+  def self.attr_lineattr_line35,423
+  def attr_lineattr_line39,472
+
+../../../../dragon/argdeprecateded.rb,115
+module GTKGTK1,0
+  module ArgsDeprecatedArgsDeprecated3,35
+    def dragondragon4,59
+    def gamegame12,233
+
+../../../../dragon/help.rb,682
+module GTKGTK1,0
+  class HelpHelp2,11
+    def self.primitive_contract primitive_nameprimitive_contract3,24
+    def self.label_contractlabel_contract17,491
+    def self.solid_border_contractsolid_border_contract36,882
+    def self.label_contractlabel_contract48,1218
+    def self.sprite_contractsprite_contract55,1349
+    def self.code_for_class_attributes_as_hash klasscode_for_class_attributes_as_hash88,2570
+    def self.serialization_implementation_help klassserialization_implementation_help98,2872
+  def serializeserialize108,3304
+  def inspectinspect113,3438
+  def to_sto_s118,3528
+    def self.serialization_too_largeserialization_too_large126,3589
+
+../../../../dragon/csole_color.r.rb,263
+module GTKGTK9,247
+  class ConsoleConsole10,258
+    class ColorColor11,274
+      def initialize(color)initialize12,290
+      def mult_alpha(alpha_modifier)mult_alpha17,394
+      def to_ato_a22,565
+      def to_sto_s26,606
+      def to_hto_h30,670
+
+../../../../dragon/array_docs.rb,507
+module ArrayDocsArrayDocs6,127
+  def docs_method_sort_orderdocs_method_sort_order7,144
+  def docs_include_any?docs_include_any?21,396
+  def docs_classdocs_class55,1137
+  def docs_reject_nildocs_reject_nil62,1397
+  def docs_reject_falsedocs_reject_false68,1636
+  def docs_productdocs_product74,1877
+  def docs_map_2ddocs_map_2d80,2113
+  def docs_any_intersect_rect?docs_any_intersect_rect?86,2348
+  def docs_mapdocs_map92,2596
+  def docs_eachdocs_each98,2828
+class ArrayArray105,3065
+
+../../../../dragon/array.rb,968
+class ArrayArray3,104
+  def self.reject_nil areject_nil10,409
+  def self.reject_falsey areject_falsey14,476
+  def reject_nilreject_nil18,542
+  def reject_falsereject_false22,592
+  def reject_falseyreject_falsey26,647
+  def a_mapa_map30,703
+  def a_eacha_each48,981
+  def mapmap66,1262
+  def __original_reject__(&block)__original_reject__80,1455
+  def reject(&block)reject89,1655
+  def product other_array = nilproduct105,1884
+  def serializeserialize122,2213
+  def to_a_pairsto_a_pairs126,2245
+  def pairs_to_hashpairs_to_hash130,2292
+  def map_2dmap_2d134,2334
+  def any_intersect_rect? other, tolerance = 0.1any_intersect_rect?158,2762
+  def samplesample164,2891
+  def restrest170,2992
+  def + other+174,3026
+  def include_any? *itemsinclude_any?194,3529
+  def map_with_index *opts, &blockmap_with_index198,3596
+  def copycopy212,3825
+  def secondsecond228,4056
+  def thirdthird232,4085
+  def sum(&blk)sum236,4113
+
+../../../../dragon/grid_docs.rb,151
+module GridDocsGridDocs6,126
+  def docs_method_sort_orderdocs_method_sort_order7,142
+  def docs_classdocs_class13,208
+class GTK::GridGTK20,418
+
+../../../../dragon/attr_sprite.rb,512
+module AttrRectAttrRect7,139
+  def leftleft10,180
+  def rightright14,217
+  def bottombottom18,272
+  def toptop22,311
+  def x1x126,364
+  def y1y130,399
+module AttrSpriteAttrSprite35,438
+  def primitive_markerprimitive_marker46,923
+  def spritesprite50,965
+  def x1= valuex1=54,994
+  def y1= valuey1=58,1032
+class ObjectObject63,1074
+  def self.attr_spriteattr_sprite64,1087
+  def attr_spriteattr_sprite68,1140
+  def self.attr_rectattr_rect73,1235
+  def attr_rectattr_rect77,1284
+
+../../../../dragon/tests.rb,846
+module GTKGTK9,230
+  class TestsTests10,241
+    def initializeinitialize13,306
+    def run_test mrun_test19,397
+    def test_methods_focusedtest_methods_focused41,941
+    def test_methodstest_methods45,1047
+    def startstart49,1137
+    def mark_test_failed m, emark_test_failed66,1592
+    def running?running?72,1711
+    def log_inconclusive mlog_inconclusive76,1755
+    def log_passed mlog_passed81,1851
+    def log_no_tests_foundlog_no_tests_found86,1929
+def test_game_over args, asserttest_game_over91,2075
+    def log_test_running mlog_test_running98,2133
+    def test_signature_invalid_exception? e, mtest_signature_invalid_exception?102,2198
+    def log_test_signature_incorrect mlog_test_signature_incorrect107,2357
+    def clear_summaryclear_summary122,2745
+    def print_summaryprint_summary128,2842
+
+../../../../dragon/geometry.rb,4420
+module GTKGTK6,125
+  module GeometryGeometry7,136
+    def inside_rect? outer, tolerance = 0.0inside_rect?8,154
+    def intersects_rect? *argsintersects_rect?12,258
+    def scale_rect_extended percentage_x: percentage_x,scale_rect_extended16,337
+    def scale_rect percentage, *anchorsscale_rect28,830
+    def angle_to other_pointangle_to32,932
+    def angle_from other_pointangle_from36,1012
+    def point_inside_circle? circle_center_point, radius = nilpoint_inside_circle?40,1096
+    def center_inside_rect other_rectcenter_inside_rect44,1238
+    def center_inside_rect_x other_rectcenter_inside_rect_x48,1336
+    def center_inside_rect_y other_rectcenter_inside_rect_y52,1438
+    def anchor_rect anchor_x, anchor_yanchor_rect56,1540
+    def angle_given_point other_pointangle_given_point64,1766
+    def line_to_rect min_w: 0, min_h: 0line_to_rect68,1891
+    def rect_to_linerect_to_line72,1993
+    def rect_center_pointrect_center_point76,2056
+      def rotate_point point, angle, around = nilrotate_point81,2147
+      def cubic_bezier t, a, b, c, dcubic_bezier98,2604
+      def scale_rect rect, percentage, *anchorsscale_rect116,2925
+      def rect_to_line rectrect_to_line129,3525
+      def center_inside_rect rect, other_rectcenter_inside_rect138,3691
+      def center_inside_rect_x rect, other_rectcenter_inside_rect_x152,4126
+      def center_inside_rect_y rect, other_rectcenter_inside_rect_y165,4510
+      def shift_line line, x, yshift_line178,4890
+      def intersects_rect? *argsintersects_rect?191,5223
+      def line_y_intercept line, replace_infinity: nilline_y_intercept205,5648
+      def angle_delta angle_one, angle_twoangle_delta217,6015
+      def angle_within_range? test_angle, target_angle, rangeangle_within_range?223,6191
+      def angle_between_lines line_one, line_two, replace_infinity: nilangle_between_lines228,6344
+      def line_slope line, replace_infinity: Float::INFINITYline_slope234,6669
+      def line_rise_run lineline_rise_run270,7794
+      def ray_test point, lineray_test286,8236
+      def line_to_rect line, min_w: 0, min_h: 0line_to_rect312,8780
+      def line_rect line, min_w: 0, min_h: 0line_rect316,8882
+      def ray_intersect line_one, line_tworay_intersect359,9661
+      def line_intersect line_one, line_twoline_intersect397,10441
+      def to_square size, x, y, anchor_x = 0.5, anchor_y = nilto_square417,11000
+  def to_square size, x, y, anchor_x = 0.5, anchor_y = nilto_square424,11265
+      def distance point_one, point_twodistance442,11763
+      def angle_turn_direction angle, target_angleangle_turn_direction448,12019
+      def angle start_point, end_pointangle456,12267
+      def angle_from start_point, end_pointangle_from464,12583
+      def angle_to start_point, end_pointangle_to470,12804
+      def point_inside_circle? point, circle_center_point, radius = nilpoint_inside_circle?476,13021
+      def inside_rect? inner_rect, outer_rect, tolerance = 0.0inside_rect?483,13452
+      def scale_rect_extended rect,scale_rect_extended513,14863
+      def rect_center_point rectrect_center_point547,16025
+      def line_center_point lineline_center_point551,16128
+      def line_length lineline_length557,16295
+      def center rectcenter561,16398
+      def rect_props rrect_props569,16578
+      def line_horizontal? lineline_horizontal?590,17052
+      def line_vertical? lineline_vertical?601,17273
+      def line_angle lineline_angle612,17491
+      def vec2_dot_product v1, v2vec2_dot_product625,17795
+      def vec2_normalize vvec2_normalize635,17991
+      def line_vec2 lineline_vec2646,18220
+      def vec2_magnitude vvec2_magnitude658,18460
+      def distance_squared p1, p2distance_squared668,18633
+      def vec2_normal vvec2_normal678,18843
+      def circle_intersect_line? circle, linecircle_intersect_line?688,19006
+      def line_normal line, pointline_normal707,19760
+      def point_on_line? point, linepoint_on_line?723,20317
+      def rect_navigate_left_right rect:, rects:, left_right: 0, using: nil, wrap: truerect_navigate_left_right737,20774
+      def rect_navigate_up_down rect:, rects:, up_down: 0, using: nil, wrap: truerect_navigate_up_down860,25020
+      def rect_navigate rect:, rects:, left_right: nil, up_down: nil, directional_vector: nil, wrap_x: true, wrap_y: true, using: nilrect_navigate905,26433
+
+../../../../dragon/inputs_docs.rb,157
+module InputsDocsInputsDocs6,128
+  def docs_method_sort_orderdocs_method_sort_order7,146
+  def docs_classdocs_class13,212
+class GTK::InputsGTK20,426
+
+../../../../dragon/class.rb,43
+class ClassClass1,0
+  def to_sto_s2,12
+
+../../../../dragon/numeric.rb,5487
+class NumericNumeric6,124
+  def to_layout_row opts = {}to_layout_row10,187
+  def to_layout_col opts = {}to_layout_col17,361
+  def to_layout_wto_layout_w24,523
+  def to_layout_hto_layout_h28,598
+  def to_layout_row_from_bottom opts = {}to_layout_row_from_bottom32,673
+  def to_layout_col_from_right opts = {}to_layout_col_from_right36,776
+  def secondsseconds41,941
+  def halfhalf46,1031
+  def thirdthird50,1064
+  def quarterquarter54,1098
+  def to_byteto_byte58,1134
+  def clamp min, max = nilclamp62,1178
+  def clamp_wrap min, maxclamp_wrap68,1300
+  def elapsed_time tick_count_override = nilelapsed_time75,1428
+  def elapsed_time_percent durationelapsed_time_percent79,1534
+  def new? tick_count_overridenew?83,1617
+  def elapsed? offset = 0, tick_count_override = Kernel.tick_countelapsed?90,1874
+  def Numeric.frame_index_no_repeat start_at: 0, count: nil, frame_count: nil, hold_for: 1, tick_count_override: Kernel.tick_count, **ignoredframe_index_no_repeat94,1990
+  def Numeric.frame_index start_at: 0, count: nil, frame_count: nil, hold_for: 1, repeat: false,  repeat_index: 0, tick_count_override: Kernel.tick_count, **ignoredframe_index123,2806
+  def frame_index *optsframe_index176,4896
+  def zero?zero?199,5796
+  def zerozero203,5829
+  def oneone207,5853
+  def twotwo211,5876
+  def fivefive215,5899
+  def tenten219,5923
+  def shift_right ishift_right223,5947
+  def shift_left ishift_left227,5987
+  def shift_up ishift_up233,6101
+  def shift_down ishift_down239,6200
+  def randomize *definitionsrandomize245,6311
+  def rand_signrand_sign267,7020
+  def rand_ratiorand_ratio272,7087
+  def remainder_of_divide nremainder_of_divide276,7127
+  def ease_extended tick_count_override, duration, default_before, default_after, *definitionsease_extended281,7242
+  def global_ease duration, *definitionsglobal_ease291,7682
+  def ease duration, *definitionsease300,8019
+  def ease_spline_extended tick_count_override, duration, splineease_spline_extended309,8342
+  def global_ease_spline duration, splineglobal_ease_spline317,8683
+  def ease_spline duration, splineease_spline324,8920
+  def to_radiansto_radians331,9140
+  def to_degreesto_degrees336,9261
+  def to_square x, y, anchor_x = 0.5, anchor_y = nilto_square344,9439
+  def vector max_value = 1vector349,9637
+  def to_vector_r max_value = 1to_vector_r359,10041
+  def vector_x_r max_value = 1vector_x_r363,10139
+  def vector_y_r max_value = 1vector_y_r367,10208
+  def to_vector max_value = 1to_vector371,10277
+  def vector_y max_value = 1vector_y375,10369
+  def vector_x max_value = 1vector_x379,10447
+  def x_vector max_value = 1x_vector387,10642
+  def y_vector max_value = 1y_vector391,10701
+  def mod nmod395,10760
+  def mod_zero? *nsmod_zero?399,10792
+  def zmod? nzmod?403,10851
+  def multiply nmultiply407,10892
+  def fmult nfmult411,10929
+  def imult nimult415,10968
+  def mult nmult419,11009
+  def fdiv nfdiv423,11042
+  def idiv nidiv428,11151
+  def towards target, magnitudetowards435,11380
+  def lerp to, steplerp443,11597
+  def remap r1_begin, r1_end, r2_begin, r2_endremap447,11654
+  def map_with_ys ys, &blockmap_with_ys462,12154
+  def combinations other_intcombinations480,12459
+  def percentage_of npercentage_of484,12539
+  def cap icap488,12606
+  def cap_min_max min, maxcap_min_max493,12659
+  def lesser otherlesser499,12760
+  def greater othergreater504,12828
+  def subtract isubtract509,12897
+  def minus iminus513,12934
+  def add iadd517,12968
+  def plus iplus521,13000
+  def numbersnumbers525,13033
+  def each(&blk)each529,13073
+  def each_with_index(&blk)each_with_index542,13228
+  def map(&blk)map555,13408
+  def map_with_index(&blk)map_with_index569,13580
+  def times_with_index(&blk)times_with_index583,13777
+  def flat_map(&blk)flat_map596,13959
+  def __raise_arithmetic_exception__ other, m, e__raise_arithmetic_exception__610,14140
+  def serializeserialize623,14344
+  def self.from_top nfrom_top627,14376
+  def from_topfrom_top632,14463
+  def self.from_right nfrom_right636,14511
+  def from_rightfrom_right641,14603
+  def self.clamp n, min, maxclamp645,14655
+  def mid? l, rmid?649,14712
+  def self.from_left nfrom_left653,14774
+  def from_leftfrom_left658,14857
+  def self.from_bottom nfrom_bottom662,14907
+  def from_bottomfrom_bottom667,14994
+class FixnumFixnum672,15052
+  def even?even?676,15152
+  def odd?odd?681,15270
+  def signsign687,15442
+  def pos?pos?694,15576
+  def neg?neg?699,15654
+  def coscos703,15685
+  def cos_rcos_r707,15731
+  def cos_dcos_d711,15768
+  def sinsin715,15816
+  def sin_rsin_r719,15862
+  def sin_dsin_d723,15899
+  def tantan727,15947
+  def tan_dtan_d731,15993
+  def tan_rtan_r735,16041
+  def to_sfto_sf739,16078
+  def to_sito_si743,16115
+  def ifloor intifloor753,16264
+class FloatFloat758,16328
+  def serializeserialize761,16361
+  def signsign765,16393
+  def replace_infinity scalarreplace_infinity771,16477
+  def to_sfto_sf778,16641
+  def ifloor intifloor782,16678
+  def sinsin786,16738
+  def coscos790,16784
+  def sin_rsin_r794,16830
+  def sin_dsin_d798,16867
+  def cos_rcos_r802,16915
+  def cos_dcos_d806,16952
+  def tantan810,17000
+  def tan_dtan_d814,17046
+  def tan_rtan_r818,17094
+class IntegerInteger823,17135
+  def round *argsround824,17149
+  def nan?nan?828,17183
+  def center othercenter832,17211
+
+../../../../dragon/nsole_menu.rbrb,976
+module GTKGTK6,129
+  class ConsoleConsole7,140
+    class MenuMenu8,156
+      def initialize consoleinitialize11,201
+      def record_clickedrecord_clicked15,268
+      def replay_clickedreplay_clicked19,333
+      def reset_clickedreset_clicked23,414
+      def scroll_up_clickedscroll_up_clicked27,468
+      def scroll_down_clickedscroll_down_clicked31,539
+      def show_menu_clickedshow_menu_clicked35,614
+      def close_clickedclose_clicked39,684
+      def hide_menu_clickedhide_menu_clicked44,771
+      def framerate_diagnostics_clickedframerate_diagnostics_clicked48,840
+      def itch_wizard_clickeditch_wizard_clicked53,960
+      def docs_clickeddocs_clicked58,1065
+      def scroll_end_clickedscroll_end_clicked63,1165
+      def custom_buttonscustom_buttons67,1239
+      def tick argstick71,1286
+      def rect_for_layout row, colrect_for_layout124,4367
+      def button argsbutton128,4475
+      def serializeserialize157,5641
+
+../../../../dragon/tweetcart.rb,65
+  def create_tweetcart_palettecreate_tweetcart_palette156,4002
+
+../../../../dragon/conso_evaluatator.rb,434
+module GTKGTK6,134
+  class ConsoleEvaluatorConsoleEvaluator7,145
+      def search words = nil, &blocksearch9,188
+      def wizardswizards13,277
+      def localslocals17,323
+      def argsargs21,374
+      def gtkgtk25,414
+      def statestate29,452
+      def docsdocs33,494
+      def docs_search words = nil, &blockdocs_search37,540
+      def export_docs!export_docs!41,634
+      def evaluate cmdevaluate45,696
+
+../../../../dragon/args_docs.rb,270
+module ArgsDocsArgsDocs6,126
+  def docs_method_sort_orderdocs_method_sort_order7,142
+  def docs_cvarsdocs_cvars16,272
+  def docs_audiodocs_audio20,404
+  def docs_easingdocs_easing24,536
+  def docs_pixel_arraydocs_pixel_array28,670
+class GTK::ArgsGTK33,819
+
+../../../../dragon/nil_classalsese_class.rb,733
+module NilClassFalseClassNilClassFalseClass5,76
+  def feels_like_an_array? name, argsfeels_like_an_array?6,102
+  def feels_like_a_hash? name, argsfeels_like_a_hash?11,232
+  def __check_thrash__! m, args__check_thrash__!15,329
+  def serializeserialize34,1046
+  def unassign_method_missingunassign_method_missing38,1079
+  def unassign_method_missing_and_raise errorunassign_method_missing_and_raise48,1366
+  def assign_method_missing hash, name, thrash_counterassign_method_missing61,1695
+class NilClassNilClass222,5914
+class FalseClassFalseClass226,5963
+class TrueClassTrueClass231,6034
+class HashHash235,6075
+  def + *args+236,6086
+  def - *args-240,6172
+  def * *args*244,6258
+  def / *args/248,6344
+
+../../../../dragon/mouse.rb,1445
+module GTKGTK6,122
+  class MousePointMousePoint7,133
+    def initialize x, yinitialize12,246
+    def w; 0; endw20,439
+    def h; 0; endh21,457
+    def left; x; endleft22,475
+    def right; x; endright23,496
+    def top; y; endtop24,518
+    def bottom; y; endbottom25,538
+    def created_at_elapsedcreated_at_elapsed27,562
+    def to_hashto_hash31,629
+    def to_hto_h35,670
+    def serializeserialize39,708
+    def inspectinspect48,860
+    def to_sto_s52,906
+  class MouseMouse57,955
+    def initializeinitialize79,1593
+    def heldheld94,1885
+    def held_atheld_at100,2044
+    def global_held_atglobal_held_at105,2121
+    def pointpoint110,2212
+    def inside_rect? rectinside_rect?114,2270
+    def inside_circle? center, radiusinside_circle?118,2335
+    def intersect_rect? other_rectintersect_rect?122,2430
+    def rectrect126,2512
+    def merge omerge130,2579
+    def ww134,2623
+    def hh138,2650
+    def clearclear144,2713
+    def upup160,3099
+    def downdown164,3129
+    def to_hto_h168,3164
+    def to_hashto_hash172,3202
+    def serializeserialize176,3243
+    def to_sto_s194,3596
+  class FingerTouchFingerTouch201,3679
+    def initializeinitialize211,3947
+    def pointpoint223,4167
+    def inside_rect? rectinside_rect?227,4211
+    def inside_circle? center, radiusinside_circle?231,4276
+    def serializeserialize237,4407
+    def to_sto_s251,4750
+
+../../../../dragon/kernel_docs.rb,349
+module KernelDocsKernelDocs6,128
+  def docs_method_sort_orderdocs_method_sort_order7,146
+  def docs_classdocs_class11,243
+  def docs_tick_countdocs_tick_count21,425
+  def docs_global_tick_countdocs_global_tick_count30,565
+  def docs_export_docs!docs_export_docs!39,739
+  def export_docs!export_docs!48,880
+module KernelKernel79,2048
+
+../../../../dragon/geomey_quadtrtree.rb,242
+module GTKGTK1,0
+  module GeometryGeometry2,11
+      def quadtree_bounding_box rectsquadtree_bounding_box4,47
+      def quadtree_insert_rect node, rectquadtree_insert_rect20,603
+      def quadtree_create rectsquadtree_create68,2412
+
+../../../../dragon/entity.rb,433
+module GTKGTK6,123
+  class EntityEntity7,134
+    def self.id!id8,149
+    def self.__reset_id__!__reset_id__14,216
+    def self.strict_entitiesstrict_entities18,266
+    def self.parse_serialization_data valueparse_serialization_data23,357
+    def self.new_entity entity_type, init_hash = nil, block = nilnew_entity39,867
+    def self.new_entity_strict entity_type, init_hash = nil, block = nilnew_entity_strict56,1247
+
+../../../../dragon/args.rb,1881
+module GTKGTK6,121
+  class ArgsArgs7,132
+    def initialize runtime, recordinginitialize29,672
+    def tick_counttick_count69,1717
+    def tick_count= valuetick_count=73,1769
+    def serializeserialize77,1836
+    def destructuredestructure88,2104
+    def clear_pixel_arraysclear_pixel_arrays92,2187
+    def pixel_arrays_clearpixel_arrays_clear96,2248
+    def pixel_arrayspixel_arrays100,2309
+    def pixel_array namepixel_array104,2359
+    def clear_render_targetsclear_render_targets112,2527
+    def render_targets_clearrender_targets_clear116,2592
+    def render_targetsrender_targets120,2657
+    def render_target namerender_target124,2711
+    def render_targets_render_atrender_targets_render_at133,3010
+    def solidssolids137,3091
+    def static_solidsstatic_solids141,3137
+    def spritessprites145,3197
+    def static_spritesstatic_sprites149,3245
+    def labelslabels153,3307
+    def static_labelsstatic_labels157,3353
+    def lineslines161,3413
+    def static_linesstatic_lines165,3457
+    def bordersborders169,3515
+    def static_bordersstatic_borders173,3563
+    def primitivesprimitives177,3625
+    def static_primitivesstatic_primitives181,3679
+    def keyboardkeyboard185,3747
+    def clickclick189,3796
+    def click_atclick_at195,3896
+    def mousemouse201,4004
+    def controller_onecontroller_one205,4047
+    def controller_twocontroller_two209,4108
+    def controller_threecontroller_three213,4169
+    def controller_fourcontroller_four217,4234
+    def autocomplete_methodsautocomplete_methods221,4297
+    def tick_beforetick_before225,4415
+    def tick_aftertick_after229,4516
+    def resetreset266,5557
+    def method_missing name, *args, &blockmethod_missing278,5937
+class AudioHash < HashAudioHash297,6326
+  def volumevolume298,6349
+  def volume= valuevolume=317,6870
+
+../../../../dragon/runte/c_bridgdge.rb,6449
+module GTKGTK1,0
+  class RuntimeRuntime2,11
+    module CBridgeCBridge4,53
+      def current_fps simulation_fps, rendering_fpscurrent_fps5,72
+      def new_log_entry level, ticks, subsystem, strnew_log_entry10,234
+      def untransform_mouse_x mousexuntransform_mouse_x14,335
+      def untransform_mouse_y mouseyuntransform_mouse_y18,424
+      def finger_down touchid, touchx, touchy, sender = falsefinger_down23,623
+      def finger_move touchid, touchx, touchy, sender = falsefinger_move66,2214
+      def finger_up touchid, sender = falsefinger_up105,3643
+      def mouse_move_relative mousex, mousey, relative_x, relative_y, sender = falsemouse_move_relative144,5063
+      def mouse_move mousex, mousey, sender = falsemouse_move180,6912
+      def update_mouse_buttons newbuttonsupdate_mouse_buttons184,7032
+      def mouse_button_pressed button, sender = falsemouse_button_pressed201,7881
+      def mouse_pressed mousex, mousey, sender = falsemouse_pressed224,8828
+      def mouse_button_up button, sender = falsemouse_button_up236,9397
+      def mouse_up mousex, mousey, sender = falsemouse_up258,10325
+      def mouse_wheel x, y = 0, inverted = false, sender = falsemouse_wheel270,10878
+      def textinput str, sender = falsetextinput300,11887
+      def key_down_in_game raw_key, modifierkey_down_in_game306,12095
+      def key_up_in_game raw_key, modifier, sender = falsekey_up_in_game334,13262
+      def scancode_down_raw raw_scancode, modifier, sender = falsescancode_down_raw366,14715
+      def key_down_raw raw_key, modifier, sender = falsekey_down_raw379,15378
+      def key_up_raw raw_key, modifier, sender = falsekey_up_raw397,16178
+      def scancode_up_raw raw_scancode, modifier, sender = falsescancode_up_raw403,16426
+      def controller_key_event player_num, raw_key, event, sender = falsecontroller_key_event438,17532
+      def controller_key_down player_num, raw_key, sender = falsecontroller_key_down469,18593
+      def controller_key_held player_num, raw_key, sender = falsecontroller_key_held473,18739
+      def controller_key_up player_num, raw_key, sender = falsecontroller_key_up477,18885
+      def window_keyboard_focus_changed gainedwindow_keyboard_focus_changed481,19027
+      def window_mouse_focus_changed gainedwindow_mouse_focus_changed485,19134
+      def analog_to_perc valueanalog_to_perc489,19235
+      def controller_one_connected namecontroller_one_connected496,19438
+      def controller_one_disconnectedcontroller_one_disconnected501,19590
+      def key_down_player_one raw_key, sender = falsekey_down_player_one506,19740
+      def key_held_player_one raw_key, sender = falsekey_held_player_one510,19853
+      def key_up_player_one raw_key, sender = falsekey_up_player_one514,19966
+      def left_analog_x_player_1 value, sender = falseleft_analog_x_player_1519,20185
+      def left_analog_y_player_1 value, sender = falseleft_analog_y_player_1537,21098
+      def right_analog_x_player_1 value, sender = falseright_analog_x_player_1555,22023
+      def right_analog_y_player_1 value, sender = falseright_analog_y_player_1573,22942
+      def controller_two_connected namecontroller_two_connected593,23888
+      def controller_two_disconnectedcontroller_two_disconnected598,24040
+      def key_down_player_two raw_key, sender = falsekey_down_player_two603,24190
+      def key_held_player_two raw_key, sender = falsekey_held_player_two607,24303
+      def key_up_player_two raw_key, sender = falsekey_up_player_two611,24416
+      def left_analog_x_player_2 value, sender = falseleft_analog_x_player_2616,24635
+      def left_analog_y_player_2 value, sender = falseleft_analog_y_player_2634,25548
+      def right_analog_x_player_2 value, sender = falseright_analog_x_player_2652,26473
+      def right_analog_y_player_2 value, sender = falseright_analog_y_player_2670,27392
+      def controller_three_connected namecontroller_three_connected690,28338
+      def controller_three_disconnectedcontroller_three_disconnected695,28496
+      def key_down_player_three raw_key, sender = falsekey_down_player_three700,28652
+      def key_held_player_three raw_key, sender = falsekey_held_player_three704,28767
+      def key_up_player_three raw_key, sender = falsekey_up_player_three708,28882
+      def left_analog_x_player_3 value, sender = falseleft_analog_x_player_3713,29103
+      def left_analog_y_player_3 value, sender = falseleft_analog_y_player_3731,30022
+      def right_analog_x_player_3 value, sender = falseright_analog_x_player_3749,30953
+      def right_analog_y_player_3 value, sender = falseright_analog_y_player_3767,31878
+      def controller_four_connected namecontroller_four_connected787,32830
+      def controller_four_disconnectedcontroller_four_disconnected792,32985
+      def key_down_player_four raw_key, sender = falsekey_down_player_four797,33138
+      def key_held_player_four raw_key, sender = falsekey_held_player_four801,33252
+      def key_up_player_four raw_key, sender = falsekey_up_player_four805,33366
+      def left_analog_x_player_4 value, sender = falseleft_analog_x_player_4810,33586
+      def left_analog_y_player_4 value, sender = falseleft_analog_y_player_4828,34502
+      def right_analog_x_player_4 value, sender = falseright_analog_x_player_4846,35430
+      def right_analog_y_player_4 value, sender = falseright_analog_y_player_4864,36352
+      def background_colorbackground_color880,37104
+      def rawjoystick_connected jid, joystickname, guidrawjoystick_connected884,37181
+      def rawjoystick_disconnected jidrawjoystick_disconnected888,37325
+      def rawjoystick_axis jid, axis, valuerawjoystick_axis892,37435
+      def rawjoystick_hat jid, hat, valuerawjoystick_hat896,37555
+      def rawjoystick_button jid, button, pressedrawjoystick_button900,37671
+      def left_controller_position x, y, z, orientation_x, orientation_y, orientation_zleft_controller_position904,37803
+      def right_controller_position x, y, z, orientation_x, orientation_y, orientation_zright_controller_position913,38313
+      def headset_position x, y, z, orientation_x, orientation_y, orientation_zheadset_position922,38830
+      def windowevent_size_changed window_width, window_height,windowevent_size_changed931,39230
+      def set_resize_occurred valueset_resize_occurred997,42276
+      def raw_event eventraw_event1001,42368
+
+../../../../dragon/ntime/draw.rbrb,492
+module GTKGTK6,121
+  class RuntimeRuntime7,132
+    module DrawDraw8,148
+      def draw_solid sdraw_solid9,164
+      def draw_sprite sdraw_sprite36,1149
+      def draw_screenshot sdraw_screenshot84,3114
+      def draw_label ldraw_label103,3941
+      def draw_line ldraw_line141,5151
+      def draw_border sdraw_border167,6012
+      def draw_screenshotsdraw_screenshots185,6656
+      def pixel_arrayspixel_arrays189,6759
+      def draw_primitive pdraw_primitive200,7134
+
+../../../../dragon/runme/hotloadad.rb,577
+module GTKGTK6,124
+  class RuntimeRuntime7,135
+    module HotloadHotload9,177
+      def hotload_inithotload_init10,196
+      def files_to_reloadfiles_to_reload23,586
+      def core_files_to_reloadcore_files_to_reload113,3767
+      def init_mtimes fileinit_mtimes124,3976
+      def hotload_source_fileshotload_source_files129,4142
+      def tick_hotloadtick_hotload144,4556
+      def on_load_succeeded fileon_load_succeeded149,4672
+      def reset_all_mtimesreset_all_mtimes155,4819
+      def reload_if_needed file, force = falsereload_if_needed168,5253
+
+../../../../dragon/runtime/a1_ememulation.rb,642
+module GTKGTK1,0
+  class A11yEmulationA11yEmulation2,11
+    def initialize runtimeinitialize5,49
+    def tick_beforetick_before12,186
+    def inputsinputs110,4067
+    def outputsoutputs114,4118
+    def notify_extended! message:, duration: 300notify_extended!118,4171
+    def enabled?enabled?122,4306
+    def prev_elementprev_element126,4347
+    def next_elementnext_element135,4675
+    def tick_aftertick_after144,5002
+    def enable!enable!275,9972
+    def disable!disable!287,10291
+    def disable_via_ctrl_r!disable_via_ctrl_r!294,10469
+    def should_tick?should_tick?302,10714
+    def resetreset308,10893
+
+../../../../dragon/runtime/pcessss_argsv.rb,437
+module GTKGTK6,130
+  class RuntimeRuntime7,141
+    module ProcessARGSVProcessARGSV8,157
+      def process_argsvprocess_argsv9,181
+      def tick_argvtick_argv64,2308
+      def schedule_callback tick_count, &callbackschedule_callback71,2478
+      def quit_after_startup_eval?quit_after_startup_eval?76,2774
+      def tick_argv_eval_pathtick_argv_eval_path87,3288
+      def tick_argv_test_pathtick_argv_test_path105,3733
+
+../../../../dragon/runtime/tocomomplete.rb,311
+module GTKGTK6,129
+  class RuntimeRuntime7,140
+    module AutocompleteAutocomplete8,156
+      def autocomplete_parse optsautocomplete_parse9,180
+      def autocomplete_filter_methods keys, *ignoresautocomplete_filter_methods45,1438
+      def suggest_autocompletion optssuggest_autocompletion80,3048
+
+../../../../dragon/runti/framerarate.rb,1143
+module GTKGTK6,126
+  class RuntimeRuntime7,137
+    module FramerateFramerate8,153
+      def framerate_initframerate_init9,174
+      def delta_frameratedelta_framerate13,245
+      def disable_framerate_warning!disable_framerate_warning!17,344
+      def enable_framerate_warning!enable_framerate_warning!22,528
+      def reset_framerate_calculationreset_framerate_calculation27,713
+      def framerate_should_show_warning?framerate_should_show_warning?33,870
+      def check_frameratecheck_framerate46,1585
+      def framerate_diagnosticsframerate_diagnostics93,3749
+      def framerate_below_threshold?framerate_below_threshold?98,3913
+      def current_frameratecurrent_framerate102,4025
+def get_framerate_diagnosticsget_framerate_diagnostics114,4338
+      def framerate_get_diagnosticsframerate_get_diagnostics118,4413
+  def tick argstick126,4594
+  def tick argstick190,6243
+      def framerate_warning_messageframerate_warning_message222,7761
+      def current_framerate_primitivescurrent_framerate_primitives230,7999
+      def framerate_diagnostics_primitivesframerate_diagnostics_primitives234,8090
+
+../../../../dragon/runtime/dowoaoad_stb_rb.rb,431
+module GTKGTK6,132
+  class RuntimeRuntime7,143
+    module DownloadStbRbDownloadStbRb8,159
+      def download_stb_rb_print_usagedownload_stb_rb_print_usage9,184
+      def download_stb_rb_raw download_url, save_path, metadata = {}download_stb_rb_raw33,804
+      def download_stb_rb url_or_user_name = nil, repo_name = nil, file_name = nildownload_stb_rb41,1167
+      def tick_download_stb_rbtick_download_stb_rb90,3252
+
+../../../../dragon/runte/messageges.rb,631
+module GTKGTK6,123
+  class RuntimeRuntime7,134
+    class Messages; class << selfMessages8,150
+      def messages_check_thermal_statemessages_check_thermal_state9,184
+  def tick argstick15,446
+      def messages_reset_via_ctrl_rmessages_reset_via_ctrl_r24,674
+  def tick argstick34,1028
+      def messages_stop_music_is_deprecatedmessages_stop_music_is_deprecated43,1156
+      def messages_looping_sounds_behavior_changemessages_looping_sounds_behavior_change56,1521
+  def tick argstick65,1832
+  def tick argstick77,2101
+  def tick argstick87,2322
+  def tick argstick106,2756
+  def tick argstick117,2985
+
+../../../../dragon/runtime/save_statload_state.r.rb,833
+module GTKGTK6,138
+  class RuntimeRuntime7,149
+    module SaveStateLoadStateSaveStateLoadState8,165
+      def save_statesave_state9,195
+      def load_stateload_state14,352
+      def serialize_state *optsserialize_state18,441
+      def deserialize_state *argsdeserialize_state42,1104
+      def parse_serialization_data valueparse_serialization_data77,2628
+module GTKGTK96,3245
+  class OpenEntityOpenEntity97,3256
+    def load_entity_data! serialization_dataload_entity_data!98,3275
+    def to_sto_s126,3879
+  def update_entity_keys_by_refupdate_entity_keys_by_ref132,3956
+module GTKGTK157,4525
+  class StrictEntityStrictEntity158,4536
+    def load_entity_data! serialization_dataload_entity_data!159,4557
+    def to_sto_s188,5235
+    def update_entity_keys_by_refupdate_entity_keys_by_ref193,5308
+
+../../../../dragon/runte/platfororm.rb,375
+module GTKGTK6,125
+  class RuntimeRuntime7,136
+    module PlatformPlatform8,152
+      def platform_mappingsplatform_mappings9,172
+      def platformplatform43,1368
+      def platform= valueplatform=47,1416
+      def is_steam_releaseis_steam_release73,2089
+      def is_steam_release=(value)is_steam_release=77,2153
+      def platform? valueplatform?82,2266
+
+../../../../dragon/runti/auto_tetest.rb,573
+module GTKGTK6,126
+  class RuntimeRuntime7,137
+    module AutoTestAutoTest8,153
+      def auto_test_runauto_test_run9,173
+      def can_auto_test?can_auto_test?16,378
+      def tick_auto_testtick_auto_test23,565
+      def auto_test_initializeauto_test_initialize33,861
+      def tick_auto_test_run_changedtick_auto_test_run_changed49,1510
+      def auto_test_run_testsauto_test_run_tests63,1906
+      def tick_auto_test_reset_all_mtimestick_auto_test_reset_all_mtimes69,2031
+      def tick_auto_test_discover_teststick_auto_test_discover_tests76,2213
+
+../../../../dragon/ruime/notify.y.rb,315
+module GTKGTK6,123
+  module NotifyNotify7,134
+    def notify message, duration = 300notify8,150
+    def notify! message, duration = 300notify!12,230
+    def notify_subdued!notify_subdued!24,652
+    def notify_extended! opts = {}notify_extended!28,706
+    def tick_notificationtick_notification43,1294
+
+../../../../dragon/runtimdeprecacated.rb,626
+module GTKGTK1,0
+  class RuntimeRuntime2,11
+    module DeprecatedDeprecated4,53
+      def current_framerate_rawcurrent_framerate_raw5,75
+      def suppress_print_help_when_mouse_clickedsuppress_print_help_when_mouse_clicked13,229
+      def suppress_framerate_warningsuppress_framerate_warning17,437
+      def suppress_print_help_when_mouse_clicked= valuesuppress_print_help_when_mouse_clicked=21,621
+      def suppress_framerate_warning= valuesuppress_framerate_warning=25,803
+      def on_tickson_ticks29,961
+      def on_tick *argson_tick33,1087
+      def take_screenshot= valuetake_screenshot=37,1255
+
+../../../../dragon/runme/versionon.rb,0
+
+../../../../dragon/runti/benchmamark.rb,438
+module GTKGTK6,126
+    class Benchmark; class << selfBenchmark7,137
+      def benchmark_iterations_single iterations, name, procbenchmark_iterations_single8,172
+      def benchmark_seconds_single seconds, name, procbenchmark_seconds_single24,592
+      def benchmark opts = {}benchmark40,1022
+      def benchmark_seconds opts = {}benchmark_seconds60,1508
+      def benchmark_iterations  opts = {}benchmark_iterations144,4550
+
+../../../../dragon/runtime/anc_r_require.rb,974
+module GTKGTK6,130
+  class RuntimeRuntime7,141
+    module AsyncRequireAsyncRequire8,157
+      def async_require_initasync_require_init9,181
+      def most_recent_reload_history pathmost_recent_reload_history24,730
+      def add_to_require_queue pathadd_to_require_queue30,956
+      def get_ruby_reload_listget_ruby_reload_list56,2155
+      def reload_completereload_complete69,2709
+      def on_file_reloaded fileon_file_reloaded93,3723
+      def main_rb_reload_completed?main_rb_reload_completed?96,3766
+      def main_rb_loaded!main_rb_loaded!105,4273
+      def important_instance_methodsimportant_instance_methods109,4338
+      def dollar_sign_game_methodsdollar_sign_game_methods113,4445
+      def process_load_statusprocess_load_status118,4563
+      def load_statusload_status128,4812
+      def pending_reload?pending_reload?132,4866
+      def reload_ruby_file filereload_ruby_file139,5069
+      def load_main_rbload_main_rb184,6754
+
+../../../../dragon/runtime/tturere_atlas.rb,372
+module GTKGTK1,0
+    class TextureAtlasTextureAtlas2,11
+      def self.__get_texture_atlas_entry__ game_directory, f__get_texture_atlas_entry__3,34
+      def self.get_texture_atlas sprites_directory, ffi_file:, cli_arguments:;get_texture_atlas50,1383
+      def self.__get_texture_atlas_recur__ dir, candidate_files, ffi_file:;__get_texture_atlas_recur__124,5671
+
+../../../../dragon/ruime/backup.p.rb,529
+module GTKGTK1,0
+  class Backup; class << selfBackup2,11
+    def backup_directorybackup_directory3,41
+    def backup_load_changes ffi_file:;backup_load_changes7,98
+    def backup_file file, ffi_file:;backup_file26,759
+    def backup_write_changes changes, ffi_file:;backup_write_changes66,2030
+    def backup_create file, ffi_file:, production:;backup_create114,3553
+    def backup_create_index ffi_file:;backup_create_index137,4461
+    def backup_cssbackup_css144,4807
+    def backup_htmlbackup_html194,7412
+
+../../../../dragon/runme/draw_vrvr.rb,374
+module GTKGTK1,0
+  class RuntimeRuntime2,11
+    module DrawVRDrawVR3,27
+      def draw_vr_solid sdraw_vr_solid4,45
+      def draw_vr_sprite sdraw_vr_sprite29,964
+      def draw_vr_label ldraw_vr_label70,2801
+      def draw_vr_line ldraw_vr_line88,3487
+      def draw_vr_border sdraw_vr_border116,4439
+      def draw_vr_primitive pdraw_vr_primitive130,4910
+
+../../../../dragon/fn.rb,1908
+module GTKGTK2,16
+  class FnFn3,27
+   def self.add(*nums)add4,38
+    def self.+(*nums)+17,300
+    def self.sub(*nums)sub21,348
+    def self.-(*nums)-43,818
+    def self.div(*nums)div47,866
+    def self./(*nums)/73,1448
+    def self.idiv(*nums)idiv77,1496
+    def self.mul(*nums)mul103,2101
+    def self.*(*nums)*129,2683
+    def self.lt(*nums)lt133,2731
+    def self.<(*nums)<155,3159
+    def self.lte(*nums)lte159,3206
+    def self.<=(*nums)<=181,3635
+    def self.gt(*nums)gt185,3684
+    def self.>(*nums)>207,4112
+    def self.gte(*nums)gte211,4159
+    def self.>=(*nums)>=233,4588
+    def self.acopy arrayacopy237,4637
+    def self.aget array, indexaget241,4686
+    def self.alength arrayalength247,4814
+    def self.amap array, blockamap252,4899
+    def self.and(*vals)and258,5029
+    def self.or(*vals)or267,5172
+    def self.eq?(*vals)eq274,5266
+    def self.==(*vals)==287,5473
+    def self.apply array, blockapply291,5522
+    def self.areduce array, initial_value, blockareduce297,5648
+    def self.array_hash *arrayarray_hash305,5830
+    def self.gsub string, *from_to_pairsgsub309,5889
+    def self.__object_to_org__ o, opts = {}__object_to_org__321,6234
+    def self.__org_s__ org, aggregate = nil__org_s__405,9689
+    def self.pretty_format_verbose opretty_format_verbose474,12416
+    def self.pretty_print_verbose opretty_print_verbose478,12500
+    def self.pretty_format_array o, indentation_stackpretty_format_array484,12608
+    def self.pretty_format_sort_keys keyspretty_format_sort_keys532,14142
+    def self.pretty_format_hash o, indentation_stackpretty_format_hash550,14555
+    def self.pretty_format_object o, indentation_stackpretty_format_object602,16106
+    def self.pretty_format opretty_format641,17715
+    def self.pretty_print opretty_print656,18172
+    def self.eq_any? o, *listeq_any660,18238
+
+../../../../dragon/api.rb,2202
+module GTKGTK9,237
+  class ApiApi10,248
+    def initializeinitialize11,260
+    def get_api_autocomplete args, reqget_api_autocomplete14,288
+    def get_api_lsp_pulse args, reqget_api_lsp_pulse69,1818
+    def post_api_lsp_completion args, reqpost_api_lsp_completion79,2103
+    def post_api_autocomplete args, reqpost_api_autocomplete102,2848
+    def get_index args, reqget_index125,3625
+    def source_code_links argssource_code_links139,3878
+    def get_api_code args, reqget_api_code150,4102
+    def code_edit_view args, filecode_edit_view169,4443
+    def get_api_code_edit args, reqget_api_code_edit203,5527
+    def post_api_code_update args, reqpost_api_code_update212,5786
+    def get_api_log args, reqget_api_log226,6171
+    def post_api_log args, reqpost_api_log232,6340
+    def get_src_backup args, reqget_src_backup240,6504
+    def get_not_found args, reqget_not_found247,6738
+    def get_api_eval args, reqget_api_eval255,6977
+    def post_api_eval args, reqpost_api_eval305,8470
+    def control_panel_viewcontrol_panel_view327,9011
+    def get_api_control_panel args, reqget_api_control_panel366,10226
+    def get_api_changes args, reqget_api_changes372,10388
+    def json? reqjson?378,10586
+    def post_api_reset args, reqpost_api_reset382,10720
+    def post_api_record args, reqpost_api_record389,10905
+    def post_api_record_stop args, reqpost_api_record_stop396,11101
+    def post_api_replay args, reqpost_api_replay403,11310
+    def post_api_show_console args, reqpost_api_show_console410,11512
+    def get_api_log args, reqget_api_log417,11711
+    def tick argstick424,11925
+    def url_decode args, stringurl_decode445,12865
+    def file_extensionsfile_extensions485,14157
+    def routesroutes489,14245
+    def process! optsprocess!536,16741
+    def process_single! optsprocess_single!546,17023
+    def static_file_routesstatic_file_routes566,17634
+    def get_cached_static_file args, reqget_cached_static_file575,17877
+    def get_static_file args, reqget_static_file585,18237
+    def get_query_params reqget_query_params644,19957
+    def get_uri_and_query_string reqget_uri_and_query_string651,20128
+
+../../../../dragon/hasdeprecateded.rb,324
+module HashDeprecatedHashDeprecated1,0
+  def __primitive_deprecation_message__ primitive_name__primitive_deprecation_message__2,22
+  def tick argstick13,647
+  def tick argstick24,1001
+  def borderborder43,1743
+  def solidsolid50,1927
+  def labellabel57,2105
+  def lineline64,2283
+  def spritesprite71,2455
+
+../../../../dragon/grideprecateded.rb,511
+module GTKGTK1,0
+  module GridDeprecatedGridDeprecated2,11
+    def self.__method_deprecated__ method_name, new_method_name, or_method: nil__method_deprecated__3,35
+    def self.__method_renamed__ method_name, new_method_name, or_method: nil__method_renamed__18,560
+    def self.__attribute_deprecated__ attribute_name, new_attribute_name, or_method: nil__attribute_deprecated__33,1085
+    def self.__attribute_renamed__ attribute_name, new_attribute_name, or_method: nil__attribute_renamed__43,1537
+
+../../../../dragon/hash.rb,1688
+class HashHash3,103
+  def serializeserialize10,374
+  def primitive_markerprimitive_marker14,406
+  def to_label opts = nilto_label23,648
+  def label! opts = nillabel!29,752
+  def to_solid opts = nilto_solid35,858
+  def solid! opts = nilsolid!41,962
+  def to_border opts = nilto_border47,1068
+  def border! opts = nilborder!53,1174
+  def to_line opts = nilto_line59,1282
+  def line! opts = nilline!65,1384
+  def to_sprite opts = nilto_sprite71,1488
+  def sprite! opts = nilsprite!77,1594
+  def rectrect83,1702
+  def new_entity_strict entity_type, &blocknew_entity_strict89,1820
+  def new_entity entity_type, &blocknew_entity93,1930
+  def pretty_format char = " "pretty_format97,2026
+  def self.pretty_format hash, char = " "pretty_format101,2098
+  def leftleft130,2721
+  def rightright136,2823
+  def bottombottom142,2939
+  def toptop148,3047
+  def ss154,3157
+  def idid158,3185
+  def areaarea162,3215
+  def area= valuearea=166,3249
+  def hypotenusehypotenuse170,3298
+  def hypotenuse= valuehypotenuse=174,3344
+  def to_hashto_hash178,3405
+  def rect_shift_right dxrect_shift_right182,3435
+  def rect_shift_up dyrect_shift_up186,3489
+  def shift_rect dx, dyshift_rect190,3540
+  def associate hash = nilassociate196,3657
+  def anchor_rect x_perc, y_percanchor_rect210,3935
+  def as_hashas_hash214,4026
+  def merge other, &blockmerge218,4056
+  def merge! other, &blockmerge!226,4216
+  def copycopy234,4379
+  def into otherinto260,4854
+  def << other<<268,4954
+  def >> other>>272,4993
+  def to_sfto_sf277,5047
+  def map_2d &blockmap_2d281,5127
+  def each_2d &blockeach_2d292,5321
+class HashHash304,5510
+
+../../../../dragon/inputs.rb,1027
+module GTKGTK6,123
+  class InputsInputs7,134
+    def initializeinitialize25,619
+    def upup41,1024
+    def downdown47,1140
+    def leftleft53,1266
+    def rightright59,1392
+    def directional_vectordirectional_vector65,1523
+    def directional_angledirectional_angle70,1658
+    def left_rightleft_right74,1782
+    def left_right_arrowleft_right_arrow82,1938
+    def left_right_percleft_right_perc90,2239
+    def left_right_directional_percleft_right_directional_perc100,2483
+    def up_downup_down108,2688
+    def up_down_arrowup_down_arrow116,2832
+    def up_down_percup_down_perc124,3118
+    def up_down_directional_percup_down_directional_perc132,3293
+    def clickclick140,3492
+    def controller_onecontroller_one145,3584
+    def controller_twocontroller_two149,3638
+    def controller_threecontroller_three153,3692
+    def controller_fourcontroller_four157,3748
+    def clearclear161,3803
+    def serializeserialize175,4074
+    def touch_enabled?touch_enabled?188,4482
+
+../../../../dragon/primitive.rb,12329
+module GTKGTK1,0
+  module PrimitivePrimitive2,11
+    module CommonCommon3,30
+      def primitive_markerprimitive_marker4,48
+      def merge *argsmerge8,103
+    module PointPoint13,196
+      def xx16,242
+      def x= valuex=20,278
+      def x1x124,332
+      def x1= valuex1=28,369
+      def yy32,424
+      def y= valuey=36,460
+      def zz40,514
+      def z= valuez=44,547
+      def y1y147,577
+      def y1= valuey1=51,614
+      def z1z155,669
+      def z1= valuez1=59,703
+      def ww62,734
+      def hh66,777
+      def rightright70,820
+      def leftleft74,861
+      def toptop78,897
+      def bottombottom82,936
+      def pointpoint86,974
+      def leftleft90,1020
+      def bottombottom94,1056
+      def to_hashto_hash98,1094
+      def associate hash = nilassociate102,1190
+    module RectRect115,1427
+      def ww118,1473
+      def w= valuew=122,1516
+      def hh126,1570
+      def h= valueh=130,1613
+      def rectrect134,1667
+      def rightright139,1806
+      def x2x2143,1847
+      def toptop147,1885
+      def y2y2151,1924
+      def center_inside_rect *other_rectcenter_inside_rect155,1960
+      def shift_rect *argsshift_rect173,2481
+      def rect_shift *argsrect_shift179,2621
+      def rect_shift_right vrect_shift_right186,2818
+      def rect_shift_left vrect_shift_left198,3034
+      def rect_shift_up vrect_shift_up204,3183
+      def rect_shift_down vrect_shift_down216,3393
+      def to_hashto_hash222,3539
+    module DeterminedDetermined227,3636
+    module ColorColor230,3667
+      def looks_like_a_sprite?looks_like_a_sprite?231,3684
+      def rr236,3790
+      def r= valuer=241,3867
+      def gg245,3921
+      def g= valueg=250,3998
+      def bb254,4052
+      def b= valueb=259,4129
+      def aa263,4183
+      def a= valuea=268,4262
+    module TriangleTriangle273,4324
+      def __raise_triangle_primitive_not_supported__ m__raise_triangle_primitive_not_supported__276,4370
+def tick argstick283,4626
+      def xx312,5583
+      def x= valuex=316,5660
+      def x1x1320,5745
+      def x1= valuex1=324,5824
+      def y1y1328,5911
+      def y1= valuey1=332,5990
+      def x2x2336,6077
+      def x2= valuex2=340,6156
+      def y2y2344,6243
+      def y2= valuey2=348,6322
+      def x3x3352,6409
+      def x3= valuex3=356,6488
+      def y3y3360,6575
+      def y3= valuey3=364,6654
+      def rr368,6741
+      def r= valuer=372,6818
+      def gg376,6903
+      def g= valueg=380,6980
+      def bb384,7065
+      def b= valueb=388,7142
+      def aa392,7227
+      def a= valuea=396,7304
+      def pathpath400,7389
+      def path= valuepath=404,7472
+      def blendmode_enumblendmode_enum408,7563
+      def blendmode_enum= valueblendmode_enum=412,7666
+      def to_hashto_hash416,7777
+      def source_xsource_x420,7866
+      def source_x= valuesource_x=424,7956
+      def source_ysource_y428,8043
+      def source_y= valuesource_y=432,8133
+      def source_x2source_x2436,8220
+      def source_x2= valuesource_x2=440,8312
+      def source_y2source_y2444,8401
+      def source_y2= valuesource_y2=448,8493
+      def source_x3source_x3452,8582
+      def source_x3= valuesource_x3=456,8674
+      def source_y3source_y3460,8763
+      def source_y3= valuesource_y3=464,8855
+      def primitive_markerprimitive_marker468,8944
+    module SolidSolid473,9008
+      def blendmode_enumblendmode_enum476,9051
+      def blendmode_enum= valueblendmode_enum=480,9100
+      def anchor_xanchor_x484,9167
+      def anchor_x= valueanchor_x=488,9210
+      def anchor_yanchor_y492,9271
+      def anchor_y= valueanchor_y=496,9315
+      def to_hashto_hash500,9377
+      def primitive_markerprimitive_marker506,9589
+    module BorderBorder511,9650
+      def blendmode_enumblendmode_enum514,9694
+      def blendmode_enum= valueblendmode_enum=518,9743
+      def anchor_xanchor_x522,9810
+      def anchor_x= valueanchor_x=526,9853
+      def anchor_yanchor_y530,9914
+      def anchor_y= valueanchor_y=534,9958
+      def to_hashto_hash538,10020
+      def primitive_markerprimitive_marker544,10232
+    module LabelLabel549,10294
+      def primitive_markerprimitive_marker552,10337
+      def texttext556,10390
+      def text= valuetext=560,10429
+      def defines_enums?defines_enums?564,10486
+      def size_enumsize_enum571,10772
+      def size_enum= valuesize_enum=576,10860
+      def alignment_enumalignment_enum588,11085
+      def alignment_enum= valuealignment_enum=593,11178
+      def rr605,11408
+      def r= valuer=613,11512
+      def gg621,11645
+      def g= valueg=629,11749
+      def bb637,11882
+      def b= valueb=645,11986
+      def aa653,12119
+      def a= valuea=661,12223
+      def fontfont669,12356
+      def font= valuefont=673,12395
+      def vertical_alignment_enumvertical_alignment_enum677,12452
+      def vertical_alignment_enum= valuevertical_alignment_enum=681,12513
+      def blendmode_enumblendmode_enum685,12590
+      def blendmode_enum= valueblendmode_enum=689,12640
+      def anchor_xanchor_x693,12708
+      def anchor_x= valueanchor_x=697,12752
+      def anchor_yanchor_y701,12814
+      def anchor_y= valueanchor_y=705,12858
+      def to_hashto_hash709,12920
+      def ww723,13322
+      def hh727,13387
+    module LineLine732,13460
+      def primitive_markerprimitive_marker735,13502
+      def xx739,13554
+      def x= valuex=743,13590
+      def yy747,13644
+      def y= valuey=751,13680
+      def x2x2755,13734
+      def x2= valuex2=759,13771
+      def y2y2763,13826
+      def y2= valuey2=767,13863
+      def ww771,13918
+      def hh775,13953
+      def blendmode_enumblendmode_enum779,13988
+      def blendmode_enum= valueblendmode_enum=783,14037
+      def to_hashto_hash787,14104
+    module SpriteSprite794,14287
+      def primitive_markerprimitive_marker797,14331
+      def pathpath801,14385
+      def path= valuepath=805,14424
+      def angleangle809,14481
+      def angle= valueangle=813,14521
+      def angle_xangle_x817,14579
+      def angle_x= valueangle_x=821,14618
+      def angle_yangle_y824,14654
+      def angle_y= valueangle_y=828,14693
+      def aa831,14729
+      def a= valuea=835,14765
+      def rr839,14819
+      def r= valuer=843,14855
+      def gg847,14909
+      def g= valueg=851,14945
+      def bb855,14999
+      def b= valueb=859,15035
+      def tile_xtile_x863,15089
+      def tile_x= valuetile_x=867,15131
+      def tile_ytile_y871,15191
+      def tile_y= valuetile_y=875,15233
+      def tile_wtile_w879,15293
+      def tile_w= valuetile_w=883,15335
+      def tile_htile_h887,15395
+      def tile_h= valuetile_h=891,15437
+      def flip_horizontallyflip_horizontally895,15497
+      def flip_horizontally= valueflip_horizontally=899,15550
+      def flip_verticallyflip_vertically903,15621
+      def flip_vertically= valueflip_vertically=907,15672
+      def angle_anchor_xangle_anchor_x911,15741
+      def angle_anchor_x= valueangle_anchor_x=915,15791
+      def angle_anchor_yangle_anchor_y919,15859
+      def angle_anchor_y= valueangle_anchor_y=923,15909
+      def source_xsource_x927,15977
+      def source_x= valuesource_x=931,16021
+      def source_ysource_y935,16083
+      def source_y= valuesource_y=939,16127
+      def source_wsource_w943,16189
+      def source_w= valuesource_w=947,16233
+      def source_hsource_h951,16295
+      def source_h= valuesource_h=955,16339
+      def blendmode_enumblendmode_enum959,16401
+      def blendmode_enum= valueblendmode_enum=963,16451
+      def anchor_xanchor_x967,16519
+      def anchor_x= valueanchor_x=971,16563
+      def anchor_yanchor_y975,16625
+      def anchor_y= valueanchor_y=979,16669
+      def to_hashto_hash983,16731
+    module ConversionCapabilitiesConversionCapabilities1012,17513
+      def raise_ambigous! mraise_ambigous!1013,17547
+      def mark_assert!mark_assert!1038,18037
+      def raise_frozen! mark_method, propertyraise_frozen!1083,19583
+      def mark_as_point!mark_as_point!1103,20215
+      def mark_as_rect!mark_as_rect!1109,20322
+      def mark_as_solid!mark_as_solid!1116,20450
+      def mark_as_triangle!mark_as_triangle!1124,20613
+      def mark_as_border!mark_as_border!1130,20726
+      def mark_as_line!mark_as_line!1138,20891
+      def mark_as_label!mark_as_label!1146,21053
+      def mark_as_primitive! typemark_as_primitive!1153,21183
+      def mark_as_sprite!mark_as_sprite!1159,21312
+      def __flatten_inner_arrays_and_hashes__!__flatten_inner_arrays_and_hashes__!1166,21443
+      def mark_as_common!mark_as_common!1191,22323
+      def pathpath1208,22873
+      def path= valuepath=1215,23018
+      def inside_rect? outer_rectinside_rect?1222,23179
+      def intersects_rect? other, tolerance = 0.1intersects_rect?1229,23367
+      def intersect_rect? other, tolerance = 0.1intersect_rect?1236,23585
+      def rectrect1243,23800
+      def pointpoint1250,23941
+      def scale_rect percentage, *anchorsscale_rect1257,24087
+      def scale_rect_extended *argsscale_rect_extended1264,24289
+      def center_inside_rect *other_rectcenter_inside_rect1271,24488
+      def texttext1278,24696
+      def text= valuetext=1285,24839
+      def leftleft1292,24998
+      def rightright1299,25141
+      def toptop1306,25285
+      def bottombottom1313,25423
+      def w_halfw_half1320,25573
+      def width_halfwidth_half1327,25720
+      def h_halfh_half1334,25879
+      def height_halfheight_half1341,26026
+      def xx1348,26188
+      def x1x11355,26322
+      def shift_rect *argsshift_rect1362,26457
+      def rect_shift *argsrect_shift1369,26629
+      def rect_shift_right vrect_shift_right1376,26801
+      def rect_shift_left vrect_shift_left1383,26983
+      def rect_shift_up vrect_shift_up1390,27162
+      def rect_shift_down vrect_shift_down1397,27336
+      def x= valuex=1404,27515
+      def x1= valuex1=1411,27665
+      def x2x21418,27816
+      def x3x31425,27951
+      def x3= valuex3=1432,28094
+      def y2y21439,28253
+      def y= valuey=1446,28388
+      def yy1453,28538
+      def zz1460,28672
+      def z= valuez=1465,28734
+      def y1= valuey1=1470,28811
+      def y1y11477,28962
+      def y3 valuey31484,29097
+      def y3= valuey3=1491,29253
+      def source_x2source_x21498,29412
+      def source_x2=source_x2=1505,29583
+      def source_y2source_y21512,29757
+      def source_y2=source_y2=1519,29928
+      def source_x3source_x31526,30102
+      def source_x3=source_x3=1533,30273
+      def source_y3source_y31540,30447
+      def source_y3=source_y3=1547,30618
+      def ww1554,30792
+      def w= valuew=1561,30924
+      def widthwidth1568,31072
+      def hh1575,31216
+      def h= valueh=1582,31348
+      def heightheight1589,31496
+      def angleangle1596,31643
+      def angle= valueangle=1603,31791
+      def angle_xangle_x1610,31955
+      def angle_x= valueangle_x=1615,32030
+      def angle_yangle_y1620,32120
+      def angle_y= valueangle_y=1625,32195
+      def angle_given_point other_pointangle_given_point1630,32285
+      def angle_to other_pointangle_to1637,32492
+      def angle_from other_pointangle_from1644,32672
+      def aa1651,32858
+      def a= valuea=1655,32908
+      def pointpoint1659,32966
+      def solidsolid1666,33105
+      def spritesprite1673,33244
+      def labellabel1680,33387
+      def lineline1687,33526
+      def borderborder1694,33661
+      def to_hashto_hash1701,33804
+      def associate hash = nilassociate1705,33866
+      def anchor_rect anchor_x, anchor_yanchor_rect1709,33943
+      def spritessprites1716,34144
+      def solidssolids1724,34364
+      def labelslabels1732,34579
+      def bordersborders1740,34794
+      def lineslines1748,35014
+      def outputs_add_dwim os, mark_method, primitive_nameoutputs_add_dwim1756,35224
+      def outputs_mark! o, mark_method, primitive_nameoutputs_mark!1811,36742
+      def outputs_resolved? ooutputs_resolved?1821,36986
+      def outputs_resolve_collection targetoutputs_resolve_collection1830,37311
+
+../../../../dragon/layout_docs.rb,248
+module LayoutDocsLayoutDocs6,129
+  def docs_method_sort_orderdocs_method_sort_order7,147
+  def docs_classdocs_class15,261
+  def docs_rectdocs_rect22,523
+  def docs_debug_primitivesdocs_debug_primitives28,757
+class GTK::LayoutGTK35,1007
+
+../../../../dragon/arradeprecateted.rb,667
+module ArrayDeprecatedArrayDeprecated2,11
+  def any_intersects_rect? *argsany_intersects_rect?3,34
+  def value *argsvalue17,480
+  def triangle!triangle!25,626
+  def tick argstick33,883
+  def tick argstick44,1073
+  def solid!solid!60,1319
+  def tick argstick68,1567
+  def tick argstick80,1752
+  def sprite!sprite!94,1963
+  def tick argstick102,2214
+  def tick argstick115,2434
+  def label!label!130,2699
+  def tick argstick138,2947
+  def tick argstick145,3107
+  def line!line!155,3339
+  def tick argstick163,3584
+  def tick argstick170,3738
+  def border!border!179,3921
+  def tick argstick187,4172
+  def tick argstick199,4358
+
+../../../../dragon/ios_wizard.rb,4802
+class IOSWizard < WizardIOSWizard8,209
+  def helphelp9,234
+  def initializeinitialize50,1824
+  def relative_pathrelative_path54,1876
+  def prerequisite_stepsprerequisite_steps58,1939
+  def app_metadata_retrieval_stepsapp_metadata_retrieval_steps66,2054
+  def steps_dev_buildsteps_dev_build74,2194
+  def steps_test_buildsteps_test_build102,2689
+  def steps_sim_buildsteps_sim_build130,3186
+  def steps_prod_buildsteps_prod_build158,3689
+  def get_reserved_sprite pngget_reserved_sprite186,4202
+  def production_build?production_build?201,4533
+  def dev_build?dev_build?205,4589
+  def sim_build?sim_build?209,4679
+  def hotload_build?hotload_build?213,4727
+  def start opts = nilstart217,4797
+  def always_failalways_fail241,6025
+  def check_for_xcodecheck_for_xcode246,6114
+  def check_for_brewcheck_for_brew266,6868
+  def init_wizard_statusinit_wizard_status281,7364
+  def restartrestart298,7850
+  def resetreset303,7904
+  def check_for_distribution_profilecheck_for_distribution_profile307,7946
+  def check_for_dev_profilecheck_for_dev_profile331,9256
+  def provisioning_profile_path environmentprovisioning_profile_path355,10555
+  def ios_metadata_templateios_metadata_template360,10767
+  def ios_metadataios_metadata378,11723
+  def game_metadatagame_metadata395,12259
+  def raise_ios_metadata_requiredraise_ios_metadata_required407,12638
+  def determine_team_identifierdetermine_team_identifier415,13019
+  def determine_app_namedetermine_app_name422,13222
+  def provisioning_profile_xml environmentprovisioning_profile_xml429,13417
+  def determine_app_iddetermine_app_id449,13891
+  def determine_devcertdetermine_devcert456,14080
+  def determine_prodcertdetermine_prodcert463,14303
+  def set_app_name nameset_app_name470,14550
+  def set_dev_profile pathset_dev_profile475,14612
+  def clear_tmp_directoryclear_tmp_directory485,14837
+  def set_app_id idset_app_id490,14916
+  def check_for_devicecheck_for_device496,15008
+  def check_for_certscheck_for_certs528,16250
+  def codesign_allocate_pathcodesign_allocate_path544,16682
+  def codesign_pathcodesign_path548,16829
+  def idevice_id_pathidevice_id_path552,16880
+  def ideviceinstaller_cli_appideviceinstaller_cli_app556,16926
+  def security_cli_appsecurity_cli_app560,16987
+  def xcodebuild_cli_appxcodebuild_cli_app564,17041
+  def connected_devicesconnected_devices568,17090
+  def cli_app_exist? appcli_app_exist?574,17223
+  def write_entitlements_plistwrite_entitlements_plist578,17292
+  def code_sign_binarycode_sign_binary619,18700
+  def __get_plist_orientation_value____get_plist_orientation_value__632,19588
+  def development_write_info_plistdevelopment_write_info_plist642,19827
+  def production_write_info_plistproduction_write_info_plist769,24078
+  def device_orientation_xmldevice_orientation_xml892,28251
+  def tmp_directorytmp_directory897,28425
+  def app_pathapp_path901,28500
+  def root_folderroot_folder905,28579
+  def embed_mobileprovisionembed_mobileprovision909,28679
+  def clear_payload_directoryclear_payload_directory915,28879
+  def root_folder_directoriesroot_folder_directories926,29193
+  def stage_ios_appstage_ios_app934,29585
+  def stage_sim_appstage_sim_app945,29994
+  def create_payloadcreate_payload957,30504
+  def write_server_ip_addresswrite_server_ip_address964,30726
+  def create_dev_payload_directorycreate_dev_payload_directory971,30991
+  def create_test_payload_directorycreate_test_payload_directory983,31291
+  def create_prod_payload_directorycreate_prod_payload_directory996,31660
+  def create_sim_payload_directorycreate_sim_payload_directory1009,32013
+  def create_ipacreate_ipa1020,32243
+  def do_zipdo_zip1026,32383
+  def sh cmdsh1037,32587
+  def deploy_to_devicedeploy_to_device1047,32797
+  def simctl_list_devicessimctl_list_devices1054,33012
+  def install_simulator_if_neededinstall_simulator_if_needed1093,34150
+  def simctl_list_devices_max_versionsimctl_list_devices_max_version1119,35102
+  def simctl_iphone_device_id_max_versionsimctl_iphone_device_id_max_version1127,35400
+  def simctl_iphone_device_id_by_namesimctl_iphone_device_id_by_name1133,35588
+  def deploy_to_simdeploy_to_sim1139,35760
+  def print_publish_helpprint_publish_help1164,36746
+  def compile_iconscompile_icons1185,37764
+  def stage_native_libsstage_native_libs1200,38645
+  def set_version versionset_version1205,39044
+  def app_nameapp_name1210,39149
+  def app_versionapp_version1214,39185
+  def determine_app_versiondetermine_app_version1224,39580
+  def certificate_namecertificate_name1229,39682
+  def display_namedisplay_name1233,39734
+  def reset_simulatorsreset_simulators1237,39777
+  def get_steps_to_executeget_steps_to_execute1244,39959
+
+../../../../dragon/conoller/keysys.rb,443
+module GTKGTK6,132
+  class ControllerController7,143
+    def left_handleft_hand8,162
+    def right_handright_hand15,303
+    class KeysKeys22,445
+      def backback49,1194
+      def back= valueback=53,1236
+      def guideguide57,1293
+      def guide= valueguide=61,1334
+      def activate keyactivate68,1445
+      def deactivate keydeactivate75,1600
+      def clearclear82,1743
+      def truthy_keystruthy_keys86,1820
+
+../../../../dragon/contrler/confnfig.rb,1264
+module GTKGTK10,362
+  class ControllerController11,373
+    class ConfigConfig12,392
+      def initialize runtimeinitialize15,431
+      def rawjoystick_connected jid, joystickname, guidrawjoystick_connected59,2249
+      def rawjoystick_disconnected jidrawjoystick_disconnected64,2407
+      def build_binding_stringbuild_binding_string78,2888
+      def move_to_different_part partmove_to_different_part124,4676
+      def previous_partprevious_part131,4897
+      def next_partnext_part141,5236
+      def set_binding bindstrset_binding149,5423
+      def rawjoystick_axis jid, axis, valuerawjoystick_axis157,5684
+      def rawjoystick_hat jid, hat, valuerawjoystick_hat191,7019
+      def rawjoystick_button jid, button, pressedrawjoystick_button202,7440
+      def calc_fadingcalc_fading212,7789
+      def render_basics args, msg, fade=255render_basics232,8336
+      def render_part_highlight args, part, alpha=255render_part_highlight240,8903
+      def choose_targetchoose_target247,9303
+      def render_part_highlight_from_bindstr args, bindstr, alpha=255render_part_highlight_from_bindstr270,10059
+      def play_around argsplay_around276,10272
+      def should_tick?should_tick?344,12655
+      def tick argstick350,12777
+
+../../../../dragon/symbol.rb,256
+class SymbolSymbol1,0
+  def include? vinclude?4,34
+  def end_with_bang?end_with_bang?8,83
+  def end_with? send_with?12,140
+  def without_ending_bangwithout_ending_bang16,191
+  def start_with? valuestart_with?20,272
+  def gsub *argsgsub24,342
+
+../../../../dragon/docs.rb,1554
+module DocsOrganizerDocsOrganizer6,121
+  def self.sort_docs_classes!sort_docs_classes7,142
+  def self.reserved_methodsreserved_methods17,449
+  def self.class_sort_orderclass_sort_order27,605
+  def self.check_class_sort_ordercheck_class_sort_order43,846
+module in its correct topological order.in51,1115
+  def self.sort_method_delegate l, r, method_sort_ordersort_method_delegate62,1308
+  def self.find_methods_with_docs klassfind_methods_with_docs72,1673
+  def self.get_docsify_content path:, heading_level:, heading_include:, max_depth: 100get_docsify_content81,2021
+module DocsDocs153,3942
+  def self.extended klassextended154,3954
+  def docs_method_sort_orderdocs_method_sort_order160,4063
+  def docs_classesdocs_classes164,4106
+  def docs_alldocs_all176,4377
+  def docsdocs183,4517
+  def self.__docs_search__ words = nil, &block__docs_search__224,5686
+  def __docs_search_help_text____docs_search_help_text__228,5741
+  def __docs_search_results__ words = nil, &block__docs_search_results__248,6165
+  def docs_search words = nil, &blockdocs_search303,7587
+  def __export_docs__! opts = {}__export_docs__!319,8045
+  def export_docs! opts = {}export_docs!334,8636
+  def self.__docs_append_true_line__ true_lines, true_line, parse_log__docs_append_true_line__338,8698
+  def self.__docs_generate_link_id__ text__docs_generate_link_id__344,8879
+  def self.__docs_to_html__ string, warn_long_lines: true__docs_to_html__364,9359
+  def self.__docs_line_to_html__ line, parse_log__docs_line_to_html__705,21949
+
+../../../../dragon/gmetry_docs.r.rb,2135
+module GeometryDocsGeometryDocs6,130
+  def docs_method_sort_orderdocs_method_sort_order7,150
+  def docs_classdocs_class50,1297
+  def docs_find_intersect_rectdocs_find_intersect_rect57,1563
+  def docs_find_all_intersect_rectdocs_find_all_intersect_rect63,1814
+  def docs_create_quad_treedocs_create_quad_tree69,2069
+  def docs_find_intersect_rect_quad_treedocs_find_intersect_rect_quad_tree75,2317
+  def docs_find_all_intersect_rect_quad_treedocs_find_all_intersect_rect_quad_tree81,2578
+  def docs_anchor_rectdocs_anchor_rect87,2843
+  def docs_angledocs_angle93,3086
+  def docs_angle_fromdocs_angle_from99,3323
+  def docs_angle_turn_directiondocs_angle_turn_direction105,3565
+  def docs_angle_todocs_angle_to111,3817
+  def docs_distancedocs_distance117,4057
+  def docs_point_inside_circle?docs_point_inside_circle?123,4297
+  def docs_center_inside_rectdocs_center_inside_rect129,4549
+  def docs_ray_testdocs_ray_test135,4799
+  def docs_line_intersectdocs_line_intersect141,5039
+  def docs_ray_intersectdocs_ray_intersect147,5285
+  def docs_line_rise_rundocs_line_rise_run153,5530
+  def docs_rotate_pointdocs_rotate_point159,5775
+  def docs_intersect_rect?docs_intersect_rect?165,6019
+  def docs_inside_rect?docs_inside_rect?171,6266
+  def docs_scale_rectdocs_scale_rect177,6510
+  def docs_scale_rect_extendeddocs_scale_rect_extended183,6752
+  def docs_line_angledocs_line_angle189,7003
+  def docs_vec2_dot_productdocs_vec2_dot_product195,7245
+  def docs_rect_normalizedocs_rect_normalize201,7493
+  def docs_vec2_normalizedocs_vec2_normalize207,7739
+  def docs_line_vec2docs_line_vec2213,7985
+  def docs_vec2_magnitudedocs_vec2_magnitude219,8226
+  def docs_distance_squareddocs_distance_squared225,8472
+  def docs_vec2_normaldocs_vec2_normal231,8720
+  def docs_circle_intersect_line?docs_circle_intersect_line?237,8963
+  def docs_line_normaldocs_line_normal243,9217
+  def docs_point_on_line?docs_point_on_line?249,9460
+  def docs_find_collisionsdocs_find_collisions255,9706
+  def docs_rect_navigatedocs_rect_navigate261,9953
+module GeometryGeometry278,10395
+
+../../../../dragon/runtime.rb,12945
+module FFIFFI4,39
+  class DrawDraw6,74
+    def serializeserialize7,87
+    def inspectinspect11,130
+    def to_sto_s15,171
+module GTKGTK21,212
+  class RemoteHotloadClientWrapperRemoteHotloadClientWrapper22,223
+    def initialize runtimeinitialize25,291
+    def startstart29,352
+    def ticktick38,714
+  class RuntimeRuntime45,869
+    def initialize platform, production, vrmode, logical_width, logical_height, argv, binary_path, y_offset, orientation, remote_hotload_enabled, a11y_enabledinitialize76,2082
+        def tick argstick171,5663
+    def add_caller_to_puts!add_caller_to_puts!187,6195
+    def production?production?191,6263
+    def register_cvar name, desc, type, defltregister_cvar195,6310
+    def is_vris_vr199,6600
+    def reload_historyreload_history203,6648
+    def reload_history_pendingreload_history_pending207,6707
+    def cli_argumentscli_arguments213,6852
+    def reset_touch_countreset_touch_count234,7429
+    def increase_touch_countincrease_touch_count238,7495
+    def quit!quit!244,7614
+    def request_quitrequest_quit254,7929
+    def request_quit_fatal reasonrequest_quit_fatal259,8079
+    def quit_requested?quit_requested?263,8164
+    def debug_require!debug_require!267,8219
+    def __require_sync__ path__require_sync__273,8415
+    def get_require_metadata fileget_require_metadata280,8585
+    def require filerequire306,9815
+    def require_relative filerequire_relative353,11133
+    def log_spam str, subsystem = nillog_spam368,11712
+    def log_debug str, subsystem = nillog_debug372,11791
+    def log_info str, subsystem = nillog_info376,11871
+    def log_warn str, subsystem = nillog_warn380,11950
+    def log_error str, subsystem = nillog_error384,12029
+    def log_unfiltered str, subsystem = nillog_unfiltered388,12109
+    def __log__ subsystem, log_enum, str__log__392,12203
+    def log obj, sender = nil, subsystem=nillog397,12335
+    def disable_reset_via_ctrl_rdisable_reset_via_ctrl_r405,12529
+    def enable_reset_via_ctrl_renable_reset_via_ctrl_r409,12603
+    def disable_consoledisable_console413,12675
+    def disable_console!disable_console!418,12767
+    def enable_consoleenable_console422,12823
+    def enable_console!enable_console!426,12877
+    def show_console reason = nilshow_console430,12931
+    def hide_consolehide_console434,13001
+    def start_replay file_name = nil, speed: speedstart_replay438,13051
+    def reset_and_replay file_name = nil, speed: 1, &blockreset_and_replay444,13246
+  def tick argstick464,13757
+    def stop_replaystop_replay490,14409
+    def start_recording seed_valuestart_recording494,14467
+    def game_directory file_namegame_directory499,14575
+    def set_rng valueset_rng510,14863
+    def stop_recording file_name = nilstop_recording516,15004
+    def cancel_recordingcancel_recording520,15094
+    def record_input_history name, value_1, value_2, value_count, clear_cache = falserecord_input_history525,15182
+    def record_input_history_3_params name, value_1, value_2, value_3, clear_cache = falserecord_input_history_3_params530,15389
+    def load_image file_nameload_image534,15581
+    def write_file file_name, textwrite_file538,15663
+    def write_file_root file_name, textwrite_file_root548,15850
+    def append_file file_name, textappend_file552,15942
+    def append_file_root file_name, textappend_file_root562,16132
+    def read_file file_nameread_file566,16226
+    def list_files dirlist_files576,16398
+    def stat_file pathstat_file580,16489
+    def delete_file pathdelete_file584,16547
+    def delete_file_if_exist pathdelete_file_if_exist590,16684
+    def delete_file_if_exist? pathdelete_file_if_exist?596,16830
+    def parse_xml xmlstr, stripcontent=trueparse_xml601,16917
+    def parse_xml_file fname, stripcontent=trueparse_xml_file605,17018
+    def parse_json jsonstrparse_json609,17127
+    def parse_json_file fnameparse_json_file613,17199
+    class HTTPCallbacksHTTPCallbacks620,17532
+      def ready newstateready623,17584
+      def http_response_header key, valuehttp_response_header633,17855
+      def http_response_data newdatahttp_response_data638,17987
+      def http_donehttp_done643,18109
+    def http_get url, extra_headers=nilhttp_get648,18169
+    def http_head url, extra_headers=nilhttp_head653,18318
+    def http_post url, form_fields=nil, extra_headers=nilhttp_post658,18469
+    def http_post_body url, body, extra_headers=nilhttp_post_body671,18886
+    def http_put url, fname, extra_headers=nilhttp_put676,19059
+    def export! with_comments = nil, file_name_override = nilexport!681,19222
+    def passespasses711,20036
+    def toast id, messagetoast718,20173
+    def target passtarget722,20241
+    def render_width passrender_width726,20301
+    def render_height passrender_height730,20364
+    def render_transient passrender_transient734,20429
+    def raise_conversion_for_rendering_failed p, e, name = nilraise_conversion_for_rendering_failed738,20504
+    def reset_statereset_state763,21174
+    def reset rng_override = nil, seed: nil, include_sprites: truereset772,21367
+    def reset_next_tick rng_override = nil, seed: seedreset_next_tick781,21797
+    def reset_sprites directory: nil, indentation: 1, suppress_logging: falsereset_sprites788,22080
+    def __reset_render_targets____reset_render_targets__831,23456
+    def __reset__ rng_override = nil, seed: nil, include_sprites: true__reset__839,23614
+    def last_reset_global_atlast_reset_global_at890,24986
+    def last_tick_exception_global_atlast_tick_exception_global_at894,25058
+    def last_reset_callerlast_reset_caller898,25148
+    def paused?paused?902,25215
+    def pause!pause!906,25254
+    def unpause!unpause!910,25299
+    def queue_key_up keyqueue_key_up916,25405
+    def pin_root_valuespin_root_values920,25473
+    def audioaudio929,25759
+    def queue_sound path, gainqueue_sound935,25977
+    def stop_musicstop_music944,26381
+    def dequeue_sounds passdequeue_sounds950,26681
+    def process_one_time_soundsprocess_one_time_sounds967,27453
+    class HTTPRequestHTTPRequest975,27811
+      def initialize runtime, address, method, uri, headers, raw_body, reqcptrinitialize978,27929
+      def serializeserialize1005,28846
+      def inspectinspect1017,29075
+      def to_sto_s1021,29127
+      def rejectreject1041,29365
+      def respond httpcode, body=nil, headers=nilrespond1045,29508
+    def new_http_request address, method, uri, headers, body, reqcptrnew_http_request1052,29737
+    def http_respond req, reqcptr, httpcode, body, headers_hashhttp_respond1057,29923
+    def stage_replay_valuesstage_replay_values1066,30211
+    def clear_draw_primitives passclear_draw_primitives1070,30285
+    def a11y_inputs_tick_beforea11y_inputs_tick_before1078,30496
+    def inputs_tick_beforeinputs_tick_before1118,32102
+    def a11y_enable!a11y_enable!1161,33867
+    def a11y_disable!a11y_disable!1165,33927
+    def a11y_enabled?a11y_enabled?1169,33989
+    def inputs_tick_afterinputs_tick_after1173,34068
+    def clear_draw_passesclear_draw_passes1201,35136
+    def clear_inputsclear_inputs1209,35358
+    def tick_consoletick_console1233,36286
+    def print_console_activation_helpprint_console_activation_help1239,36476
+    def console_button_primitiveconsole_button_primitive1249,36800
+    def tick_gtk_engine_beforetick_gtk_engine_before1261,37214
+    def unpause_if_neededunpause_if_needed1316,38899
+    def tick_remote_hotload_clienttick_remote_hotload_client1324,39183
+    def get_thermal_stateget_thermal_state1344,39791
+    def check_thermal_statecheck_thermal_state1348,39860
+    def tick_gtk_engine_aftertick_gtk_engine_after1359,40408
+    def a11y_logical_to_points logicala11y_logical_to_points1405,42216
+    def a11y_tick_gtk_engine_aftera11y_tick_gtk_engine_after1413,42537
+    def tick_apitick_api1444,43685
+    def tick_usr_enginetick_usr_engine1448,43733
+    def skip_tick_usr_engine?skip_tick_usr_engine?1489,45230
+    def calc_wrapper tick_override_lambda = nilcalc_wrapper1499,45477
+    def render_replay_mouserender_replay_mouse1522,46048
+    def __sdl_tick__simulation____sdl_tick__simulation__1560,47766
+    def disable_aggressive_gc!disable_aggressive_gc!1591,48904
+    def __sdl_tick__ sdl_tick__sdl_tick__1595,48980
+    def pretty_print_exception_and_export! epretty_print_exception_and_export!1630,50009
+    def tick_coretick_core1658,51097
+    def inside_tick?inside_tick?1664,51237
+    def text_fonttext_font1668,51289
+    def calcstringbox str, sz_enum = 0, fnt = "font.ttf", size_enum: nil, size_px: nil, font: nilcalcstringbox1672,51326
+    def calcspritebox strcalcspritebox1688,51657
+    def autocomplete_methodsautocomplete_methods1692,51726
+    def ignore_search_term? wordignore_search_term?1696,51835
+    def grep_did_you_mean_recommendations instance, methodgrep_did_you_mean_recommendations1703,52002
+    def grep_did_you_mean instance, method, prefix = ""grep_did_you_mean1714,52337
+    def grep_source_file file, *strings_with_recommendationsgrep_source_file1734,52907
+    def grep_source *strings_with_recommendationsgrep_source1767,53936
+    def teststests1807,55165
+    def log_levellog_level1811,55201
+    def log_levelslog_levels1815,55253
+    def log_level= valuelog_level=1819,55299
+    def seedseed1831,55591
+    def slowmo! factor, should_notify = trueslowmo!1835,55625
+    def system cmdsystem1851,56250
+    def exec cmdexec1855,56300
+    def self.argv_window_scale argvargv_window_scale1859,56341
+    def self.argv_window_position_x argvargv_window_position_x1863,56448
+    def self.argv_window_position_y argvargv_window_position_y1867,56564
+    def self.parse_cli_argument_i argv, name, default = 0parse_cli_argument_i1871,56680
+    def self.parse_cli_argument argv, name, default = nilparse_cli_argument1875,56803
+    def reset_sprite pathreset_sprite1896,57445
+    def show_cursorshow_cursor1900,57515
+    def hide_cursorhide_cursor1906,57640
+    def cursor_shown?cursor_shown?1919,57892
+    def set_system_cursor typeset_system_cursor1923,57943
+    def set_cursor fname, hot_x=0, hot_y=0set_cursor1927,58031
+    def set_mouse_grab valueset_mouse_grab1931,58134
+    def set_window_fullscreen enable=trueset_window_fullscreen1937,58281
+    def set_window_title titleset_window_title1947,58660
+    def set_window_scale scaleset_window_scale1951,58751
+    def window_fullscreen?window_fullscreen?1955,58830
+    def openurl urlopenurl1959,58891
+    def take_screenshottake_screenshot1963,58952
+    def simulate_render_targets_resetsimulate_render_targets_reset1967,59028
+    def simulate_render_device_resetsimulate_render_device_reset1971,59125
+    def serializeserialize1975,59220
+    def get_base_dirget_base_dir1984,59400
+    def get_relative_game_dirget_relative_game_dir1988,59473
+    def get_game_dirget_game_dir1998,59693
+    def open_game_dir additional_directories = ""open_game_dir2002,59781
+    def open_docsopen_docs2006,59900
+    def export_docs!export_docs!2010,59991
+    def get_game_dir_url additional_directories = ""get_game_dir_url2014,60047
+    def get_game_idget_game_id2020,60249
+    def get_pixels pathget_pixels2030,60539
+    def trace_nil_punning!trace_nil_punning!2039,60686
+    def untrace_nil_punning!untrace_nil_punning!2050,61022
+    def disable_nil_punning!disable_nil_punning!2054,61101
+            def tick argstick2065,61440
+    def enable_nil_punning!enable_nil_punning!2093,62033
+            def tick argstick2104,62381
+    def disable_nil_coersion!disable_nil_coersion!2126,62744
+    def versionversion2130,62810
+    def version_pro?version_pro?2134,62853
+    def start_server! opts = {}start_server!2138,62912
+    def warn_array_primitives!warn_array_primitives!2159,63474
+    def dlopen namedlopen2163,63550
+    def disable_controller_config!disable_controller_config!2167,63611
+    def disable_controller_configdisable_controller_config2171,63696
+    def enable_controller_config!enable_controller_config!2175,63772
+    def enable_controller_configenable_controller_config2179,63857
+    def __tick_count____tick_count__2183,63931
+    def __global_tick_count____global_tick_count__2187,63987
+    def game_versiongame_version2191,64057
+    def quitquit2195,64136
+    def benchmark opts = {}benchmark2199,64226
+    def get_texture_atlas sprites_directoryget_texture_atlas2203,64294
+class FileFile2213,64588
+  def self.read pathread2214,64599
+  def self.write path, contentswrite2218,64651
+  def self.append path, contentsappend2222,64725
+module GTKGTK2227,64805
+    def reset rng_override = nil, seed: nil, include_sprites: truereset2229,64832
+    def method_missing(m, *args, &block)method_missing2234,65032
+
+../../../../dragon/assert.rb,778
+module GTKGTK6,123
+def test_this_works args, asserttest_this_works15,348
+class AssertAssert25,528
+  def custom_assertion actual, expected, message = nilcustom_assertion26,541
+  class AssertAssert36,870
+    def ok!ok!42,1060
+def test_does_this_work args, asserttest_does_this_work51,1266
+    def true! value, message = niltrue!58,1427
+def test_does_this_work args, asserttest_does_this_work72,1680
+    def false! value, message = nilfalse!77,1774
+def test_does_this_work args, asserttest_does_this_work91,2017
+    def equal! actual, expected, message = nilequal!97,2100
+    def not_equal! actual, expected, message = nilnot_equal!107,2436
+def test_does_this_work args, asserttest_does_this_work122,2837
+    def nil! value, message = nilnil!129,2986
+
+../../../../dragon/layout.rb,1945
+module GTKGTK6,123
+  class LayoutLayout7,134
+    def initialize w, h, ratio_w, ratio_h, orientationinitialize12,297
+    def initialize_guttersinitialize_gutters21,495
+    def rect *all_optsrect43,1007
+    def font_relative_size_enum size_enumfont_relative_size_enum129,3551
+    def font_px_to_pt pxfont_px_to_pt137,3813
+    def font_pt_to_px ptfont_pt_to_px141,3874
+    def font_size_cellfont_size_cell145,3928
+    def font_size_xlfont_size_xl149,3990
+    def font_size_lgfont_size_lg153,4041
+    def font_size_medfont_size_med157,4098
+    def font_size_smfont_size_sm161,4156
+    def font_size_xsfont_size_xs165,4213
+    def font_sizefont_size169,4270
+    def logical_rectlogical_rect173,4324
+    def safe_rectsafe_rect180,4485
+    def control_rectcontrol_rect187,4631
+    def row_countrow_count194,4878
+    def row_max_indexrow_max_index198,4922
+    def col_countcol_count202,4973
+    def col_max_indexcol_max_index206,5017
+    def gutter_heightgutter_height210,5068
+    def gutter_widthgutter_width214,5113
+    def outer_gutterouter_gutter218,5157
+    def cell_heightcell_height222,5206
+    def cell_widthcell_width226,5252
+    def rect_defaultsrect_defaults230,5297
+    def row nrow247,5613
+    def row_from_bottom nrow_from_bottom251,5678
+    def col ncol255,5767
+    def col_from_right ncol_from_right259,5832
+    def w nw263,5924
+    def h nh267,5987
+    def rect_group optsrect_group271,6050
+    def calc_row_offset opts = {}calc_row_offset311,7348
+    def calc_col_offset opts = {}calc_col_offset317,7504
+    def point opts = {}point323,7660
+    def rect_center reference, targetrect_center334,7907
+    def debug_primitives opts = {}debug_primitives340,8137
+    def serializeserialize414,11442
+    def inspectinspect430,11803
+    def to_sto_s434,11849
+    def resetreset438,11892
+      def method_missing(m, *args, &block)method_missing444,11988
+
+../../../../dragon/attr_gtk.rb,904
+module AttrGTKAttrGTK6,125
+  def args= valueargs=7,140
+  def argsargs11,183
+  def keyboardkeyboard15,211
+  def gridgrid19,273
+  def statestate23,316
+  def temp_statetemp_state27,362
+  def inputsinputs31,423
+  def outputsoutputs35,472
+  def gtkgtk39,524
+  def passespasses43,564
+  def pixel_arrayspixel_arrays47,613
+  def geometrygeometry51,680
+  def layoutlayout55,735
+  def easingeasing59,784
+  def audioaudio63,833
+  def eventsevents67,879
+  def cvarscvars71,928
+  def new_entity entity_type, init_hash = nil, &blocknew_entity75,974
+  def new_entity_strict entity_type, init_hash = nil, &blocknew_entity_strict79,1092
+  def tick_counttick_count83,1224
+  def global_tick_countglobal_tick_count87,1270
+class ModuleModule92,1334
+  def attr_gtkattr_gtk93,1347
+class ObjectObject98,1393
+  def self.attr_gtkattr_gtk99,1406
+  def attr_gtkattr_gtk103,1453
+
+../../../../dragon/remote_hooad_d_client.rb,859
+module GTKGTK6,138
+  class RemoteHotloadClientRemoteHotloadClient7,149
+    def gtkgtk10,193
+    def statestate14,229
+    def initialize server_ip_address, portinitialize18,270
+    def ticktick24,503
+    def should_tick?should_tick?41,933
+    def game_stategame_state45,1049
+    def local_statelocal_state49,1094
+    def get_server_ip_addressget_server_ip_address64,1486
+    def get_server_portget_server_port68,1561
+    def get_server_url pathget_server_url72,1624
+    def server_available?server_available?76,1735
+    def tick_changestick_changes81,1862
+    def tick_http_boottick_http_boot90,2032
+    def tick_http_changestick_http_changes117,3589
+    def tick_process_queuetick_process_queue168,6068
+    def tick_process_file_retrievaltick_process_file_retrieval182,6891
+    def tick_write_filetick_write_file202,7938
+
+../../../../dragon/coole_prompt.t.rb,1680
+module GTKGTK9,248
+  class ConsoleConsole10,259
+    class PromptPrompt11,275
+      def initialize(font_style:, text_color:, console_text_width:)initialize17,556
+      def update_cursor_position_pxupdate_cursor_position_px32,992
+      def current_input_str=(str)current_input_str=37,1199
+      def <<(str)<<43,1349
+      def backspacebackspace51,1658
+      def deletedelete60,1975
+      def move_cursor_leftmove_cursor_left67,2149
+      def move_cursor_left_wordmove_cursor_left_word72,2275
+      def move_cursor_rightmove_cursor_right84,2733
+      def move_cursor_right_wordmove_cursor_right_word89,2883
+      def move_cursor_homemove_cursor_home101,3365
+      def move_cursor_endmove_cursor_end106,3466
+      def clearclear111,3572
+      def autocompleteautocomplete118,3721
+      def pretty_print_strings_as_table itemspretty_print_strings_as_table139,4610
+      def pretty_print_row cells, string_width, cell_width, column_width, columnspretty_print_row170,5751
+      def pretty_print_row_separator string_width, cell_width, column_width, columnspretty_print_row_separator185,6304
+      def render(args, x:, y:)render193,6590
+      def ticktick206,7459
+      def last_period_indexlast_period_index220,7864
+      def calc_autocomplete_prefixcalc_autocomplete_prefix224,7941
+      def current_objectcurrent_object232,8126
+      def method_candidates(prefix)method_candidates240,8327
+      def display_autocomplete_candidate(candidate)display_autocomplete_candidate244,8466
+      def reset_autocompletereset_autocomplete252,8676
+      def is_word_boundary? charis_word_boundary?257,8790
+      def str_lenstr_len264,9006
+
+../../../../dragon/tputs_docs.rbrb,160
+module OutputsDocsOutputsDocs6,129
+  def docs_method_sort_orderdocs_method_sort_order7,148
+  def docs_classdocs_class13,214
+class GTK::OutputsGTK20,430
+
+../../../../dragon/itch_wizard.rb,839
+class ItchWizard < WizardItchWizard6,128
+  def helphelp7,154
+  def itch_stepsitch_steps17,352
+  def write_blank_metadatawrite_blank_metadata23,410
+  def check_metadatacheck_metadata34,602
+  def set_devid valueset_devid89,2550
+  def set_devtitle valueset_devtitle94,2608
+  def set_gameid valueset_gameid99,2672
+  def set_gametitle valueset_gametitle104,2732
+  def set_version valueset_version109,2798
+  def set_icon valueset_icon114,2860
+  def write_metadatawrite_metadata122,2993
+  def relative_pathrelative_path163,3716
+  def package_commandpackage_command167,3779
+  def deploydeploy171,3867
+  def startstart197,4539
+  def resetreset202,4595
+  def restartrestart212,4748
+  def initializeinitialize217,4789
+  def init_wizard_statusinit_wizard_status221,4823
+  def display_namedisplay_name240,5281
+
+../../../../dragon/easing.rb,1346
+module GTKGTK6,123
+  module EasingEasing7,134
+    def self.ease start_tick, current_tick, duration, *definitionsease8,150
+    def self.ease_extended start_tick, current_tick, end_tick, default_before, default_after, *definitionsease_extended17,464
+    def self.ease_spline start_tick, current_tick, duration, splineease_spline31,938
+    def self.ease_spline_extended start_tick, current_tick, end_tick, splineease_spline_extended35,1098
+    def self.initial_value *definitionsinitial_value46,1571
+    def self.final_value *definitionsfinal_value51,1727
+    def self.exec_definition definition, start_tick, duration, xexec_definition56,1883
+    def self.identity xidentity70,2273
+    def self.flip xflip74,2314
+    def self.quad xquad78,2355
+    def self.cube xcube82,2396
+    def self.quart xquart86,2441
+    def self.quint xquint90,2495
+    def self.smooth_start_quad xsmooth_start_quad94,2553
+    def self.smooth_stop_quad xsmooth_stop_quad98,2608
+    def self.smooth_start_cube xsmooth_start_cube102,2675
+    def self.smooth_stop_cube xsmooth_stop_cube106,2730
+    def self.smooth_start_quart xsmooth_start_quart110,2797
+    def self.smooth_stop_quart xsmooth_stop_quart114,2854
+    def self.smooth_start_quint xsmooth_start_quint118,2923
+    def self.smooth_stop_quint xsmooth_stop_quint122,2980
+
+../../../../dragon/readme_docs.rb,1478
+module GTKGTK6,128
+  module ReadMeDocsReadMeDocs7,139
+    def docs_method_sort_orderdocs_method_sort_order8,159
+    def docs_hello_worlddocs_hello_world21,445
+    def docs_new_projectdocs_new_project27,692
+    def docs_deploymentdocs_deployment33,964
+    def docs_deployment_mobiledocs_deployment_mobile39,1217
+    def docs_deployment_steamdocs_deployment_steam45,1486
+    def docs_dragonruby_philosophydocs_dragonruby_philosophy51,1745
+    def docs_ticks_and_framesdocs_ticks_and_frames57,2003
+  def tick argstick67,2319
+  def tick argstick78,2590
+    def docs_spritesdocs_sprites85,2720
+  def tick argstick102,3302
+  def tick argstick121,3748
+    def docs_labelsdocs_labels168,4654
+  def tick argstick183,5031
+  def tick argstick192,5200
+  def tick argstick202,5474
+  def tick argstick235,6626
+  def tick argstick268,7646
+  def tick argstick289,8270
+    def docs_soundsdocs_sounds301,8697
+  def tick argstick308,8811
+  def tick argstick319,9057
+  def tick argstick330,9332
+    def docs_game_statedocs_game_state340,9498
+  def tick argstick355,9980
+    def docs_accessing_filesdocs_accessing_files382,10551
+    def animate_a_spriteanimate_a_sprite423,12397
+  def tick argstick432,12696
+    def docs_troubleshooting_performancedocs_troubleshooting_performance457,13220
+    def scale_spritesscale_sprites501,14794
+  def tick argstick512,15186
+    def docs_faqdocs_faq528,15663
+  class ReadMeReadMe535,15929
+
+../../../../dragon/kernel.rb,533
+module KernelKernel1,0
+  def self.tick_counttick_count4,109
+  def self.tick_count= valuetick_count8,161
+  def add_caller_to_puts!add_caller_to_puts!12,221
+  def puts *argsputs16,283
+  def putz *argsputz39,776
+  def puts6 *argsputs643,816
+  def putz6 *argsputz648,901
+  def puts60 *argsputs6052,943
+  def putz60 *argsputz6057,1030
+  def puts600 *argsputs60061,1074
+  def putz600putz60066,1163
+  def self.global_tick_countglobal_tick_count70,1203
+  def self.global_tick_count= valueglobal_tick_count74,1269
+
+../../../../dragon/primitivdeprerecated.rb,238
+module GTKGTK1,0
+  module PrimitivePrimitive2,11
+    module RectDeprecatedRectDeprecated4,56
+      def w_halfw_half5,82
+      def width_halfwidth_half9,184
+      def h_halfh_half13,294
+      def height_halfheight_half17,396
+
+../../../../dragon/metadata.rb,175
+module MetadataMetadata8,207
+  def metadata_file_pathmetadata_file_path9,223
+  def get_metadataget_metadata13,288
+  def write_blank_metadatawrite_blank_metadata33,747
+
+../../../../dragon/meric_docs.rbrb,679
+module NumericDocsNumericDocs6,129
+  def docs_method_sort_orderdocs_method_sort_order7,148
+  def docs_classdocs_class18,325
+  def docs_frame_indexdocs_frame_index28,478
+  def tick argstick48,1023
+  def tick argstick76,1757
+  def tick argstick101,2361
+  def tick argstick125,2990
+  def docs_new?docs_new?146,3390
+  def tick argstick155,3573
+  def docs_elapsed?docs_elapsed?175,4125
+  def tick argstick184,4420
+  def tick argstick213,5332
+  def docs_to_sfdocs_to_sf246,6401
+  def docs_to_sidocs_to_si253,6562
+  def docs_elapsed_timedocs_elapsed_time260,6744
+  def tick argstick271,7104
+  def tick argstick289,7611
+class NumericNumeric311,8234
+
+../../../../dragon/controller.rb,881
+module GTKGTK6,127
+  class ControllerController7,138
+    def initializeinitialize25,507
+    def to_hto_h40,917
+    def to_hashto_hash44,955
+    def serializeserialize48,996
+    def clearclear72,1919
+    def upup79,2026
+    def downdown83,2081
+    def leftleft87,2142
+    def rightright91,2203
+    def activate_down(key)activate_down100,2395
+    def activate_held(key)activate_held111,2652
+    def activate_up(key)activate_up123,2935
+    def method_missing m, *argsmethod_missing131,3101
+    def inspectinspect139,3265
+    def to_sto_s143,3311
+    def left_analog_angleleft_analog_angle147,3354
+    def right_analog_angleright_analog_angle152,3532
+    def left_analog_active? threshold_raw: nil, threshold_perc: nilleft_analog_active?157,3715
+    def right_analog_active? threshold_raw: nil, threshold_perc: nilright_analog_active?181,4448
+
+../../../../dragon/cvar.rb,366
+module GTKGTK1,0
+  class CvarCvar2,11
+    def initialize name, desc, typeinitialize5,68
+    def valuevalue11,177
+    def value= valvalue=15,236
+    def lockedlocked19,310
+    def serializeserialize23,375
+    def inspectinspect33,540
+    def to_sto_s37,586
+  class CvarsCvars42,642
+      def method_missing(m, *args, &block)method_missing44,674
+
+../../../../dragon/object.rb,4229
+class BareDefinitionsContainerBareDefinitionsContainer2,11
+  def initializeinitialize5,67
+  def argsargs9,121
+class NILNIL15,168
+class ClassClass18,183
+  def serializeserialize19,195
+  def defaults_alias_method_oncedefaults_alias_method_once23,232
+  def alias_method_once opts = {}alias_method_once30,359
+class ObjectMetadataObjectMetadata37,595
+  def self.with_meta o, meta_valuewith_meta38,616
+  def self.meta ometa62,1039
+  def self.meta! ometa67,1113
+  def self.__meta____meta__78,1304
+module ValueTypeValueType85,1373
+  def copycopy86,1390
+class ModuleModule91,1421
+  def attr *varsattr92,1434
+  def attributesattributes99,1556
+class ObjectObject105,1623
+  def fnfn106,1636
+  def self.attr *varsattr110,1659
+  def self.attributesattributes117,1786
+  def purge_class symbolpurge_class122,1854
+  def raise_immediately e, m, *argsraise_immediately137,2227
+  def raise_with_caller e, inner_exceptionraise_with_caller148,2422
+  def or otheror156,2542
+  def and otherand160,2582
+  def __supports_ivars__?__supports_ivars__?164,2623
+  def fast_randfast_rand170,2754
+  def __gtk_ruby_source_files____gtk_ruby_source_files__176,2935
+  def __pretty_print_exception__ e, inner_exception = nil__pretty_print_exception__187,3138
+  def __pretty_format_exception_text_uninitialized_constant__ e__pretty_format_exception_text_uninitialized_constant__218,4547
+  def __caller_to_org__ title, kaller__caller_to_org__238,5141
+  def __pretty_format_exception_text_recommend_reset_next_tick__ e__pretty_format_exception_text_recommend_reset_next_tick__243,5286
+  def __gtk_ruby_string_contains_source_file_path__? s__gtk_ruby_string_contains_source_file_path__?279,6819
+  def __caller_without_noise____caller_without_noise__283,6937
+  def raise_error_with_kind_of_okay_message e, name, *argsraise_error_with_kind_of_okay_message287,7056
+  def better_instance_informationbetter_instance_information308,7540
+  def better_class_hierarchy_informationbetter_class_hierarchy_information312,7616
+  def raise_method_missing_better_error name, *args, &blockraise_method_missing_better_error334,8323
+  def __looks_like_docs__? name, *args, &block__looks_like_docs__?374,9313
+  def __normalized_docs_method__ name, *args, &block__normalized_docs_method__383,9706
+  def __try_invoke_docs_method__ name, *args, &block__try_invoke_docs_method__389,9889
+  def method_missing_core name, *args, &blockmethod_missing_core401,10395
+  def method_missing name, *args, &blockmethod_missing444,11429
+  def numeric_or_default default = 0numeric_or_default448,11521
+  def f_or_default default = 0f_or_default453,11617
+  def s_or_default default = ''s_or_default458,11707
+  def i_or_default default = 0i_or_default463,11791
+  def require filerequire468,11881
+  def require_relative filerequire_relative472,11929
+  def __custom_object_methods____custom_object_methods__476,11995
+  def autocomplete_methodsautocomplete_methods480,12144
+  def __object_methods____object_methods__484,12208
+  def helphelp490,15145
+  def primitive_markerprimitive_marker505,15529
+  def metadata_object_idmetadata_object_id509,15567
+  def trace! instance = niltrace!513,15613
+  def repl &blockrepl521,15762
+  def repl_silent &blockrepl_silent526,15902
+  def xreplxrepl530,15989
+  def commentcomment533,16008
+  def serializeserialize536,16029
+  def idid543,16204
+  def associate hash = nilassociate547,16228
+  def letlet551,16285
+  def greetinggreeting556,16431
+  def greetinggreeting566,16627
+  def ivar mivar578,16839
+  def ivar! m, vivar!582,16900
+  def __help_contract_implementation contract_methods__help_contract_implementation586,16968
+  def __help_contract_implementation__ contract_methods__help_contract_implementation__590,17174
+  def docsdocs604,17634
+  module PersonDocsPersonDocs617,18117
+    def docs_classdocs_class618,18137
+    def docs_say_hellodocs_say_hello625,18246
+  class PersonPerson633,18359
+    def say_hellosay_hello637,18413
+  def into otherinto646,18491
+  def hmap opts = {}hmap650,18533
+  def pretty_print opretty_print654,18570
+  def pretty_format opretty_format658,18621
+  def to_sfto_sf665,18744
+
+../../../../dragon/directional_input_heer_methodods.rb,315
+module GTKGTK6,149
+  module DirectionalInputHelperMethodsDirectionalInputHelperMethods8,289
+    def self.included klassincluded9,328
+    def left_rightleft_right35,1279
+    def up_downup_down44,1487
+    def directional_vectordirectional_vector59,2135
+    def directional_angledirectional_angle71,2416
+
+../../../../dragon/log.rb,2478
+module GTKGTK26,698
+  class LogLog27,709
+    def self.write_to_log_and_puts *argswrite_to_log_and_puts28,721
+    def self.write_to_log_and_print *argswrite_to_log_and_print34,915
+    def self.puts_important *args, message_code: nilputs_important40,1084
+    def self.puts *argsputs51,1512
+    def self.multiline? *argsmultiline57,1643
+    def self.join_lines argsjoin_lines62,1757
+    def self.headline nameheadline69,1945
+    def self.dynamic_blockdynamic_block80,2335
+    def self.puts_error *argsputs_error88,2417
+    def self.puts_info *argsputs_info112,3012
+    def self.resetreset136,3603
+    def self.puts_once *ids, messageputs_once141,3658
+    def self.puts_once_important *ids, messageputs_once_important156,4176
+    def self.puts_once_info *ids, messageputs_once_info164,4370
+    def self.print *argsprint172,4530
+class ObjectObject178,4610
+  def log_print *argslog_print179,4623
+  def log_important *argslog_important183,4678
+  def log *argslog187,4746
+  def log_spam str, subsystem = nillog_spam193,4889
+  def log_debug str, subsystem = nillog_debug197,4967
+  def log_info str, subsystem = nillog_info201,5046
+  def log_warn str, subsystem = nillog_warn205,5124
+  def log_error str, subsystem = nillog_error209,5202
+  def log_unfiltered str, subsystem = nillog_unfiltered213,5281
+  def log_with_color xterm_escape_code, *argslog_with_color217,5374
+  def log_reset_colorlog_reset_color224,5503
+  def log_black *argslog_black228,5566
+  def log_red *argslog_red232,5641
+  def log_green *argslog_green236,5712
+  def log_yellow *argslog_yellow240,5787
+  def log_blue *argslog_blue244,5864
+  def log_magenta *argslog_magenta248,5937
+  def log_cyan *argslog_cyan252,6016
+  def log_white *argslog_white256,6089
+  def log_bright_black *argslog_bright_black260,6164
+  def log_bright_red *argslog_bright_red264,6253
+  def log_bright_green *argslog_bright_green268,6338
+  def log_bright_yellow *argslog_bright_yellow272,6427
+  def log_bright_blue *argslog_bright_blue276,6518
+  def log_bright_magenta *argslog_bright_magenta280,6605
+  def log_bright_cyan *argslog_bright_cyan284,6698
+  def log_bright_white *argslog_bright_white288,6785
+  def log_error *argslog_error292,6874
+  def log_info *argslog_info296,6934
+  def log_once *ids, messagelog_once300,6992
+  def log_once_important *ids, messagelog_once_important304,7066
+  def log_once_info *ids, messagelog_once_info308,7160
+
+../../../../dragon/recording.rb,2403
+module GTKGTK6,126
+  class ReplayReplay8,154
+    def self.start file_name = nil, speed: 1start9,169
+    def self.stopstop13,277
+  class RecordingRecording18,339
+    def initialize runtimeinitialize21,404
+    def replay_callbacks_do_tickreplay_callbacks_do_tick27,545
+    def tick_beforetick_before38,804
+    def tick_aftertick_after48,1088
+    def on_replay_tick &blockon_replay_tick52,1147
+    def on_recording_tick &blockon_recording_tick56,1216
+    def start_recording seed_number = nil, rng_seed: nil, simulation_speed: nilstart_recording60,1291
+    def start seed_number = nil, rng_seed: nil, simulation_speed: nilstart108,2828
+    def is_replaying?is_replaying?112,2997
+    def is_recording?is_recording?116,3050
+    def stop file_name = nilstop120,3103
+    def cancelcancel124,3172
+    def stop_recording file_name = nilstop_recording129,3268
+    def recording_recently_completed?recording_recently_completed?175,5002
+    def on_replay_completed_successfully &blockon_replay_completed_successfully180,5156
+    def stop_recording_corestop_recording_core184,5264
+    def replay_completed_successfully?replay_completed_successfully?191,5407
+    def __deserialize_replay_value__ value__deserialize_replay_value__195,5492
+    def start_replay file_name = nil, speed: 1start_replay203,5788
+    def start_replay_next_tick file_name, speed: 1, &blockstart_replay_next_tick369,12691
+    def replay_completed_atreplay_completed_at381,13052
+    def replay_stopped_atreplay_stopped_at385,13116
+    def replay_recently_started?replay_recently_started?389,13176
+    def replay_recently_stopped?replay_recently_stopped?394,13319
+    def replay_recently_completed?replay_recently_completed?399,13462
+    def clear_replay_stopped_at!clear_replay_stopped_at!404,13611
+    def stop_replay notification_message = "Replay has been stopped."stop_replay408,13684
+    def record_input? name, raw_key, modifier_keysrecord_input?430,14477
+    def capture_record_input_timestamps name, raw_key, modifier_keyscapture_record_input_timestamps445,15178
+    def record_input_history name, value_1, value_2, value_count, clear_cache = falserecord_input_history456,15563
+    def record_input_history_3_params name, value_1, value_2, value_3, clear_cache = falserecord_input_history_3_params463,15906
+    def stage_replay_valuesstage_replay_values470,16253
+
+../../../../dragon/open_entity.rb,1402
+module GTKGTK1,0
+  class OpenEntityOpenEntity2,11
+    def self.parse_serialization_data dataparse_serialization_data8,226
+    def initialize name = nilinitialize12,321
+    def hashhash25,667
+    def merge *optsmerge33,970
+    def as_hashas_hash37,1024
+    def == other==50,1408
+    def entity_identity_id55,1535
+    def attributesattributes59,1586
+    def with_meta o, metawith_meta63,1673
+    def meta ometa67,1747
+    def meta! ometa!71,1799
+    def __meta____meta__75,1853
+    def __reserved_keys____reserved_keys__79,1909
+    def new_entity_strict entity_type, init_hash = nil, &blocknew_entity_strict83,2043
+    def new_entity entity_type, init_hash = nil, &blocknew_entity87,2176
+    def old?old?91,2295
+    def new? tick_count_override = nilnew?96,2420
+    def created_at_elapsedcreated_at_elapsed100,2544
+    def global_created_at_elapsedglobal_created_at_elapsed104,2625
+    def __set_hash_property__ name, args__set_hash_property__108,2727
+    def __get_hash_property__ name__get_hash_property__124,3106
+    def method_missing name, *args, &blockmethod_missing144,3604
+    def inspectinspect180,4593
+    def set! key, valueset!184,4635
+    def autocomplete_methodsautocomplete_methods192,4797
+    def attributes= *optsattributes=218,5750
+    def clear!clear!222,5970
+    def __delete_thrash_count__!__delete_thrash_count__!226,6012
+
+../../../../dragon/top_level.rb,19
+module GTKGTK1,0
+
+../../../../dragon/matrix.rb,520
+module MatrixFunctionsMatrixFunctions1,0
+class MatrixMatrix4,28
+class Vec2 < HashVec28,71
+  def + other+9,89
+  def * other*13,137
+class Mat2 < HashMat218,189
+  def + other+19,207
+  def * other*23,255
+class Vec3 < HashVec328,307
+  def + other+29,325
+  def * other*33,373
+class Mat3 < HashMat338,425
+  def + other+39,443
+  def * other*43,491
+class Vec4 < HashVec448,543
+  def + other+49,561
+  def * other*53,609
+class Mat4 < HashMat458,661
+  def + other+59,679
+  def * other*63,727
+
+../../../../dragon/sict_entity.r.rb,775
+module GTKGTK1,0
+  class StrictEntityStrictEntity2,11
+    def self.parse_serialization_data dataparse_serialization_data8,234
+    def initialize name, init_hash = nil, block = nilinitialize12,329
+    def inspectinspect30,784
+    def is_a? klassis_a?34,831
+    def method_missing m, *argsmethod_missing38,912
+    def created_at_elapsedcreated_at_elapsed49,1351
+    def global_created_at_elapsedglobal_created_at_elapsed53,1425
+    def hashhash57,1528
+    def as_hashas_hash65,1831
+    def attributes= *optsattributes=70,1939
+    def to_hashto_hash74,2159
+    def set! key, valueset!83,2353
+    def clear!clear!87,2428
+    def []= key, value[]=93,2539
+    def [] key[]97,2613
+    def __delete_thrash_count__!__delete_thrash_count__!101,2652
+
+../../../../dragon/enumerable.rb,0
+
+../../../../dragon/serialize.rb,117
+module GTKGTK1,0
+  module SerializeSerialize2,11
+    def serializeserialize3,30
+    def inspectinspect19,456
+
+../../../../dragon/consolfont_ststyle.rb,320
+module GTKGTK9,252
+  class ConsoleConsole10,263
+    class FontStyleFontStyle11,279
+      def initialize(font:, size_enum:, line_height:)initialize14,350
+      def letter_sizeletter_size20,502
+      def line_height_pxline_height_px25,630
+      def label(x:, y:, text:, color:, alignment_enum: 0)label29,722
+
+../../../../dragon/exception.rb,83
+class ExceptionException1,0
+  def __backtrace_to_org____backtrace_to_org__2,16
+
+../../../../dragon/attr_label.rb,135
+module AttrLabelAttrLabel6,126
+class ObjectObject18,359
+  def self.attr_labelattr_label19,372
+  def attr_labelattr_label23,423
+
+../../../../dragon/wizards.rb,558
+class WizardWizard6,124
+  def metadata_file_pathmetadata_file_path7,137
+  def get_metadataget_metadata11,202
+  def helphelp40,925
+  def process_wizard_exception eprocess_wizard_exception44,1020
+  def last_executed_stepslast_executed_steps55,1502
+  def execute_steps stepsexecute_steps59,1560
+  def display_namedisplay_name95,2573
+class WizardException < ExceptionWizardException100,2623
+  def initialize *console_primitivesinitialize103,2694
+module GTKGTK108,2787
+  class WizardsWizards109,2798
+    def initializeinitialize112,2845
+
+../../../../dragon/console.rb,4849
+module GTKGTK11,329
+  class ConsoleConsole12,340
+    def initializeinitialize27,1018
+    def console_text_widthconsole_text_width66,2373
+    def save_historysave_history70,2496
+    def load_historyload_history74,2610
+    def disabledisable93,3109
+    def enableenable98,3180
+    def add_sprite objadd_sprite102,3228
+    def __add_primitive__ obj__add_primitive__120,3646
+    def add_primitive obj, global_at: niladd_primitive129,3784
+    def add_text obj, loglevel=-1add_text137,3966
+    def ready?ready?184,5458
+    def hidden?hidden?188,5568
+    def visible?visible?192,5609
+    def open reason = nilopen196,5652
+    def show reason = nilshow200,5705
+    def hidehide206,5835
+    def closeclose222,6230
+    def clear_toastclear_toast226,6264
+    def toggletoggle231,6343
+    def currently_toasting?currently_toasting?244,6652
+    def toast_extended id = nil, duration = nil, *messagestoast_extended252,6904
+  def toast id, *messagestoast258,7071
+    def perma_toast id = nil, messagesperma_toast300,8223
+    def toast id = nil, *messagestoast304,8319
+    def console_toggle_keysconsole_toggle_keys308,8402
+    def console_toggle_key_down? argsconsole_toggle_key_down?319,8588
+    def try_search_docs exceptiontry_search_docs323,8696
+    def eval_the_set_commandeval_the_set_command353,9785
+    def inputs_scroll_up_full? argsinputs_scroll_up_full?411,11774
+    def scroll_to_bottomscroll_to_bottom417,11976
+    def scroll_up_fullscroll_up_full421,12032
+    def inputs_scroll_up_half? argsinputs_scroll_up_half?426,12160
+    def scroll_up_halfscroll_up_half431,12302
+    def inputs_scroll_down_full? argsinputs_scroll_down_full?436,12438
+    def scroll_down_fullscroll_down_full442,12644
+    def inputs_scroll_down_half? argsinputs_scroll_down_half?447,12758
+    def inputs_clear_command? argsinputs_clear_command?452,12902
+    def scroll_down_halfscroll_down_half457,13043
+    def mouse_wheel_scroll argsmouse_wheel_scroll462,13165
+    def process_inputs argsprocess_inputs497,13842
+    def write_primitive_and_return_offset(args, left, y, str, archived: false)write_primitive_and_return_offset577,16767
+    def write_line(args, left, y, str, archived: false)write_line588,17132
+    def should_tick?should_tick?595,17464
+    def logo_final_ylogo_final_y602,17625
+    def render argsrender606,17722
+    def render_log_offset argsrender_log_offset652,19595
+    def include_error_marker? textinclude_error_marker?663,19905
+    def error_markerserror_markers667,20025
+    def include_subdued_markers? textinclude_subdued_markers?671,20147
+    def include_any_words? text, wordsinclude_any_words?675,20276
+    def subdued_markerssubdued_markers679,20411
+    def calc argscalc683,20492
+    def tick argstick701,20918
+    def process_clear_logs_request_queueprocess_clear_logs_request_queue729,21916
+    def process_add_primitive_queueprocess_add_primitive_queue737,22217
+    def set_command_with_history_silent command, histories, show_reason = nilset_command_with_history_silent749,22548
+    def defaults_set_command_extendeddefaults_set_command_extended753,22727
+    def set_command_extended optsset_command_extended762,22899
+    def set_command_with_history command, histories, show_reason = nilset_command_with_history772,23338
+    def set_command command, show_reason = nilset_command777,23511
+    def set_command_silent command, show_reason = nilset_command_silent782,23636
+    def set_system_command command, show_reason = nilset_system_command786,23762
+    def system_commandsystem_command794,24006
+    def ww804,24140
+    def hh808,24184
+    def line_height_pxline_height_px820,24407
+    def lines_on_one_pagelines_on_one_page824,24471
+    def line(y:, color:)line828,24541
+    def include_row_marker? log_entryinclude_row_marker?832,24631
+    def include_header_marker? log_entryinclude_header_marker?836,24704
+    def include_header_1_marker? log_entryinclude_header_1_marker?844,24970
+    def include_header_2_marker? log_entryinclude_header_2_marker?849,25112
+    def include_header_3_marker? log_entryinclude_header_3_marker?854,25255
+    def code? log_entrycode?859,25399
+    def just_symbol? log_entryjust_symbol?863,25496
+    def code_comment? log_entrycode_comment?868,25673
+    def codeblock_marker? log_entrycodeblock_marker?873,25789
+    def color_for_plain_text log_entrycolor_for_plain_text879,25979
+    def color_for_log_entry(log_entry)color_for_log_entry905,26724
+    def promptprompt928,27424
+    def current_input_strcurrent_input_str932,27566
+    def current_input_str=(str)current_input_str=936,27632
+    def clearclear940,27710
+    def slide_progressslide_progress947,27823
+    def clear_logs global_at: Kernel.global_tick_countclear_logs957,28126
+
+../../../../dragon/trace.rb,620
+module GTKGTK9,228
+  module TraceTrace10,239
+    def self.traced_classestraced_classes41,2168
+    def self.mark_class_as_traced! klassmark_class_as_traced46,2256
+    def self.untrace_classes!untrace_classes50,2337
+    def self.trace_method_name_for mtrace_method_name_for75,3247
+    def self.original_method_name_for moriginal_method_name_for79,3332
+    def self.filter_methods_to_trace methodsfilter_methods_to_trace84,3485
+    def self.trace_times_stringtrace_times_string88,3635
+    def self.flush_trace pad_with_newline = falseflush_trace96,3969
+    def self.trace! instance = niltrace110,4418
+
+../../../../dragon/grid.rb,1146
+module GTKGTK6,121
+  class GridGrid7,132
+    def initialize runtimeinitialize58,1058
+    def orientationorientation64,1180
+    def transform_x xtransform_x68,1236
+    def untransform_x xuntransform_x72,1287
+    def transform_y ytransform_y76,1340
+    def untransform_y yuntransform_y80,1412
+    def ffi_drawffi_draw84,1486
+    def ffi_draw= valueffi_draw=88,1528
+    def origin_bottom_left!origin_bottom_left!92,1585
+    def origin_center!origin_center!112,2326
+    def xx132,3146
+    def x_pxx_px136,3177
+    def yy140,3214
+    def y_pxy_px144,3247
+    def allscreen_xallscreen_x148,3286
+    def allscreen_x_pxallscreen_x_px152,3337
+    def allscreen_yallscreen_y156,3394
+    def allscreen_y_pxallscreen_y_px160,3447
+    def w_halfw_half164,3506
+    def h_halfh_half168,3543
+    def rectrect172,3580
+    def rect_pxrect_px176,3647
+    def allscreen_rectallscreen_rect180,3729
+    def allscreen_rect_pxallscreen_rect_px184,3846
+    def letterbox?letterbox?188,3978
+    def hd?hd?194,4111
+    def highdpi?highdpi?200,4212
+      def method_missing(m, *args, &block)method_missing207,4350
