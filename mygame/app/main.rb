@@ -1,4 +1,6 @@
-# 00c65e
+require 'app/player'
+require 'app/dog_bot'
+
 class LaserGame
   attr_gtk
 
@@ -17,50 +19,37 @@ class LaserGame
 
   def init_game
     s.floor ||= 250
-    s.player ||= {
-      x: 120,
-      y: s.floor,
-      w: 60,
-      h: 60,
-      dy: 0,
-      dx: 0,
-      speed: 12,
-      path: 'sprites/lasercat_forward_sheet.png',
-      tile_x: 0,
-      tile_y: 0,
-      tile_w: 100
-    }
+    s.gravity = -0.3 # what goes up must come down because of gravity
+    s.player ||= Player.new(s.floor)
     s.speed = 6
     s.distance ||= 0
     s.gravity = -0.3 # what goes up must come down because of gravity
-    s.player_jump_power = 9
-    s.player_jump_power_duration = 3
-    s.player_speed_slowdown_rate = 0.9
     s.tick_count = state.tick_count
     s.lasers ||= []
     s.targets ||= 3.times.map { |_t| spawn_targets }
+    s.dogs ||= 3.times.map { |t| DogBot.new(t * (s.distance + 1000)) }
     s.score ||= 0
     s.boundaries ||= [
-      { x: 0, y: s.floor, x2: grid.w, y2: s.floor, r: 0, g: 0, b: 0 },
-      { x: 0, y: grid.h - 250, x2: grid.w, y2: grid.h - 250, r: 0, g: 0, b: 0 }
+      {x: 0, y: s.floor, x2: grid.w, y2: s.floor, r: 0, g: 0, b: 0},
+      {x: 0, y: grid.h - 250, x2: grid.w, y2: grid.h - 250, r: 0, g: 0, b: 0}
     ]
-    s.background ||= { x: 0, y: s.floor, w: grid.w, h: grid.h - 500, r: 0, g: 198, b: 94 }
+    s.background ||= {x: 0, y: s.floor, w: grid.w, h: grid.h - 500, r: 0, g: 198, b: 94}
   end
 
   def input
     if inputs.left
       s.distance -= s.speed
-      s.player.tile_x = 100 * ((s.distance / 15).floor % 8)
+      s.player.run(s.distance)
     elsif inputs.right
       s.distance += s.speed
-      s.player.tile_x = 100 * ((s.distance / 15).floor % 8)
+      s.player.run(s.distance)
     else
-      s.player.tile_x = 0
+      s.player.stand
     end
 
     if inputs.mouse.click || inputs.keyboard.key_down.enter
       # d'où part le laser
-      base_x = s.player.x + s.player.w - 24
+      base_x = s.player.x + 28
       base_y = s.player.y + 24
       s.lasers << Laser.new(
         base_x,
@@ -71,15 +60,22 @@ class LaserGame
 
     return unless inputs.keyboard.key_down.space
 
-    s.player.jumped_at ||= s.tick_count # set to current frame
-    return unless s.player.jumped_at.elapsed_time < s.player_jump_power_duration && !s.player.falling
-
-    s.player.dy = s.player_jump_power
-    # s.player.dx *= s.player_speed_slowdown_rate # scales dx down
+    s.player.jump(s.tick_count)
   end
 
   def calc
     s.targets.each { |t| t.x = t.base_x - s.distance }
+    s.dogs.each do |d|
+      d.base_x -= d.speed
+      d.x = d.base_x - s.distance
+      d.move
+
+      # When you fall, another rise
+      s.dogs << DogBot.new(s.distance + 1000 + rand(500)) if d.base_x < 0
+    end
+
+    s.dogs.filter! { |d| d.base_x > 0 }
+
     s.lasers.each do |laser|
       laser.move
 
@@ -96,27 +92,29 @@ class LaserGame
         s.score += 1
         s.targets << spawn_targets
       end
-    end
 
-    s.player.y += s.player.dy
-    s.player.dy += s.gravity
-    s.player.x = s.player.x.clamp(0, grid.w - s.player.w)
-    s.player.y = s.player.y.clamp(s.floor, grid.h - s.player.h)
-    if s.player.y <= s.floor
-      s.player.dy = 0
-      s.player.jumped_at = nil
+      s.dogs.each do |dog|
+        next unless geometry.intersect_rect?(dog, laser)
+
+        dog.dead = true
+        laser.dead = true
+        s.score += 1
+        s.dogs << spawn_dogs
+      end
     end
+    s.player.calc(grid, s.floor, s.gravity)
     s.targets.reject! { |t| t.dead }
     s.lasers.reject! { |f| f.dead }
+    s.dogs.reject! { |d| d.dead }
   end
 
   def render
     outputs.lines << s.boundaries
-    outputs.sprites << [s.player, s.lasers]
+    outputs.sprites << [s.player, s.lasers, s.dogs]
     outputs.solids << [s.background, s.targets]
     outputs.labels << [
-      { x: 40, y: grid.h - 40, text: "Score: #{s.score}", size_enum: 4 },
-      { x: 700, y: grid.h - 40, text: "distance: #{s.distance}", size_enum: 4 }
+      {x: 40, y: grid.h - 40, text: "last dog: #{s.dogs.first&.x}", size_enum: 4},
+      {x: 700, y: grid.h - 40, text: "distance: #{s.distance}", size_enum: 4}
     ]
   end
 
@@ -127,6 +125,14 @@ class LaserGame
       base_x,
       s.floor
     )
+  end
+
+  def spawn_dogs
+    # size = 64
+    base_x = s.distance + 1000 + rand(1000)
+    d = DogBot.new(base_x)
+    d.x = d.base_x - s.distance
+    d
   end
 end
 
@@ -176,6 +182,7 @@ class Laser < Sprite
   SPEED = 24
 
   def initialize(x, y, direction)
+    super
     self.x = x
     self.y = y
     self.direction = direction

@@ -1,0 +1,38 @@
+Style/GlobalVars:
+  Enabled: false
+
+Style/IfInsideElse:
+  AllowIfModifier: true
+
+Style/RandomWithOffset:
+  Enabled: false
+
+Style/RedundantFileExtensionInRequire:
+  Enabled: false
+
+Style/RedundantReturn:
+  Enabled: false
+
+# Normally I like using double quotes but I think DR/mRuby can't hang
+Style/StringLiterals:
+  EnforcedStyle: single_quotes
+
+Layout/FirstHashElementIndentation:
+  EnforcedStyle: consistent
+
+Layout/HashAlignment:
+  EnforcedColonStyle: table
+
+# Ignoring comment lines due to YARD
+Layout/LineLength:
+  Max: 120
+  AllowedPatterns: ['^ *# ']
+
+Layout/SpaceAroundEqualsInParameterDefault:
+  EnforcedStyle: no_space
+
+Layout/SpaceInsideArrayLiteralBrackets:
+  Enabled: false
+
+Layout/SpaceInsideHashLiteralBraces:
+  Enabled: false
